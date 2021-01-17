@@ -1,0 +1,3 @@
+[submodule "parts/KiCad-Libraries"]
+	path = parts/KiCad-Libraries
+	url = https://github.com/imciner2/KiCad-Libraries
