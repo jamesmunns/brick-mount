@@ -530,10 +530,10 @@ F 3 "~" H 2500 1400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J1
 U 1 1 6045A2B0
 P 2450 800
-F 0 "J?" V 2414 412 50  0000 R CNN
+F 0 "J1" V 2414 412 50  0000 R CNN
 F 1 "Conn_01x06" V 2323 412 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2450 800 50  0001 C CNN
 F 3 "~" H 2450 800 50  0001 C CNN
@@ -541,10 +541,10 @@ F 3 "~" H 2450 800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J2
 U 1 1 6045D727
 P 2450 1100
-F 0 "J?" V 2414 712 50  0000 R CNN
+F 0 "J2" V 2414 712 50  0000 R CNN
 F 1 "Conn_01x06" V 2323 712 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2450 1100 50  0001 C CNN
 F 3 "~" H 2450 1100 50  0001 C CNN

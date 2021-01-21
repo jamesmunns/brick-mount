@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J1
 U 1 1 60065C8B
 P 1400 750
-F 0 "J?" V 1400 1450 50  0000 C CNN
+F 0 "J1" V 1400 1450 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 -150 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 750 50  0001 C CNN
 F 3 "~" H 1400 750 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 1400 750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J31
 U 1 1 600975D1
 P 6300 1250
-F 0 "J?" V 6264 862 50  0000 R CNN
+F 0 "J31" V 6264 862 50  0000 R CNN
 F 1 "Conn_01x06" V 6173 862 50  0000 R CNN
 F 2 "brick-4_9id-6_0od:brick-1x6" H 6300 1250 50  0001 C CNN
 F 3 "~" H 6300 1250 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 6300 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J32
 U 1 1 6009E3F0
 P 6300 1650
-F 0 "J?" V 6264 1262 50  0000 R CNN
+F 0 "J32" V 6264 1262 50  0000 R CNN
 F 1 "Conn_01x06" V 6173 1262 50  0000 R CNN
 F 2 "brick-4_9id-6_0od:brick-1x6" H 6300 1650 50  0001 C CNN
 F 3 "~" H 6300 1650 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 6300 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x30 J?
+L Connector_Generic:Conn_01x30 J33
 U 1 1 600A0DA9
 P 7750 3400
-F 0 "J?" H 7700 4950 50  0000 L CNN
+F 0 "J33" H 7700 4950 50  0000 L CNN
 F 1 "Conn_01x30" V 7750 1350 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x30_P2.54mm_Vertical" H 7750 3400 50  0001 C CNN
 F 3 "~" H 7750 3400 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 7750 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x30 J?
+L Connector_Generic:Conn_01x30 J34
 U 1 1 600ABA02
 P 8200 3400
-F 0 "J?" H 8150 4950 50  0000 L CNN
+F 0 "J34" H 8150 4950 50  0000 L CNN
 F 1 "Conn_01x30" V 8200 1350 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x30_P2.54mm_Vertical" H 8200 3400 50  0001 C CNN
 F 3 "~" H 8200 3400 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 8200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x22 J?
+L Connector_Generic:Conn_01x22 J35
 U 1 1 600B3FEE
 P 8850 3800
-F 0 "J?" H 8800 4950 50  0000 L CNN
+F 0 "J35" H 8800 4950 50  0000 L CNN
 F 1 "Conn_01x22" V 8850 2150 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical" H 8850 3800 50  0001 C CNN
 F 3 "~" H 8850 3800 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "~" H 8850 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x22 J?
+L Connector_Generic:Conn_01x22 J36
 U 1 1 600BA975
 P 9250 3800
-F 0 "J?" H 9200 4950 50  0000 L CNN
+F 0 "J36" H 9200 4950 50  0000 L CNN
 F 1 "Conn_01x22" V 9250 2150 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical" H 9250 3800 50  0001 C CNN
 F 3 "~" H 9250 3800 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "~" H 9250 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP1
 U 1 1 600BBE7E
 P 8650 2450
-F 0 "JP?" H 8600 2550 50  0000 L CNN
+F 0 "JP1" H 8600 2550 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 8000 2350 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8650 2450 50  0001 C CNN
 F 3 "~" H 8650 2450 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" H 8650 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP3
 U 1 1 600BEB5F
 P 9050 2450
-F 0 "JP?" H 9000 2550 50  0000 L CNN
+F 0 "JP3" H 9000 2550 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 8400 2350 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9050 2450 50  0001 C CNN
 F 3 "~" H 9050 2450 50  0001 C CNN
@@ -113,10 +113,10 @@ F 3 "~" H 9050 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP2
 U 1 1 600CD589
 P 8650 5250
-F 0 "JP?" H 8600 5350 50  0000 L CNN
+F 0 "JP2" H 8600 5350 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 8000 5150 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8650 5250 50  0001 C CNN
 F 3 "~" H 8650 5250 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "~" H 8650 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP4
 U 1 1 600CD58F
 P 9050 5250
-F 0 "JP?" H 9000 5350 50  0000 L CNN
+F 0 "JP4" H 9000 5350 50  0000 L CNN
 F 1 "SolderJumper_2_Open" H 8400 5150 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9050 5250 50  0001 C CNN
 F 3 "~" H 9050 5250 50  0001 C CNN
@@ -135,20 +135,20 @@ F 3 "~" H 9050 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x04_MountingPin J?
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin J38
 U 1 1 600D06B0
 P 10400 5950
-F 0 "J?" H 10488 5864 50  0000 L CNN
+F 0 "J38" H 10488 5864 50  0000 L CNN
 F 1 "Conn_01x04_MountingPin" H 10488 5773 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 10400 5950 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 10400 5950 50  0001 C CNN
 F 3 "~" H 10400 5950 50  0001 C CNN
 	1    10400 5950
 	1    0    0    -1  
 $EndComp
 Text Label 10200 6050 2    50   ~ 0
-SDA
+Q2-SDA
 Text Label 10200 6150 2    50   ~ 0
-SCL
+Q2-SCL
 Wire Wire Line
 	10200 5950 9900 5950
 Wire Wire Line
@@ -160,20 +160,20 @@ Wire Wire Line
 Wire Wire Line
 	9750 6350 9750 5850
 $Comp
-L Connector_Generic_MountingPin:Conn_01x04_MountingPin J?
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin J37
 U 1 1 600FF32F
 P 10350 1850
-F 0 "J?" H 10438 1764 50  0000 L CNN
+F 0 "J37" H 10438 1764 50  0000 L CNN
 F 1 "Conn_01x04_MountingPin" H 10438 1673 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 10350 1850 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 10350 1850 50  0001 C CNN
 F 3 "~" H 10350 1850 50  0001 C CNN
 	1    10350 1850
 	1    0    0    -1  
 $EndComp
 Text Label 10150 1950 2    50   ~ 0
-SDA
+Q1-SDA
 Text Label 10150 2050 2    50   ~ 0
-SCL
+Q1-SCL
 Wire Wire Line
 	10150 1850 9850 1850
 Wire Wire Line
@@ -530,10 +530,10 @@ Connection ~ 1900 950
 Wire Wire Line
 	1900 950  2000 950 
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J2
 U 1 1 601BF2DB
 P 1400 1050
-F 0 "J?" V 1400 1750 50  0000 C CNN
+F 0 "J2" V 1400 1750 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 150 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 1050 50  0001 C CNN
 F 3 "~" H 1400 1050 50  0001 C CNN
@@ -563,10 +563,10 @@ Connection ~ 1900 1250
 Wire Wire Line
 	1900 1250 2000 1250
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J3
 U 1 1 601C6EF8
 P 1400 1350
-F 0 "J?" V 1400 2050 50  0000 C CNN
+F 0 "J3" V 1400 2050 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 450 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 1350 50  0001 C CNN
 F 3 "~" H 1400 1350 50  0001 C CNN
@@ -596,10 +596,10 @@ Connection ~ 1900 1550
 Wire Wire Line
 	1900 1550 2000 1550
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J4
 U 1 1 601CF15F
 P 1400 1650
-F 0 "J?" V 1400 2350 50  0000 C CNN
+F 0 "J4" V 1400 2350 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 750 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 1650 50  0001 C CNN
 F 3 "~" H 1400 1650 50  0001 C CNN
@@ -629,10 +629,10 @@ Connection ~ 1900 1850
 Wire Wire Line
 	1900 1850 2000 1850
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J5
 U 1 1 601D75F2
 P 1400 1950
-F 0 "J?" V 1400 2650 50  0000 C CNN
+F 0 "J5" V 1400 2650 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 1050 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 1950 50  0001 C CNN
 F 3 "~" H 1400 1950 50  0001 C CNN
@@ -684,10 +684,10 @@ Connection ~ 1500 1850
 Wire Wire Line
 	1500 1850 1500 2150
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J6
 U 1 1 601F57EC
 P 1400 2250
-F 0 "J?" V 1400 2950 50  0000 C CNN
+F 0 "J6" V 1400 2950 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 1350 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 2250 50  0001 C CNN
 F 3 "~" H 1400 2250 50  0001 C CNN
@@ -717,10 +717,10 @@ Connection ~ 1900 2450
 Wire Wire Line
 	1900 2450 2000 2450
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J7
 U 1 1 601F5800
 P 1400 2550
-F 0 "J?" V 1400 3250 50  0000 C CNN
+F 0 "J7" V 1400 3250 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 1650 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 2550 50  0001 C CNN
 F 3 "~" H 1400 2550 50  0001 C CNN
@@ -750,10 +750,10 @@ Connection ~ 1900 2750
 Wire Wire Line
 	1900 2750 2000 2750
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J8
 U 1 1 601F5814
 P 1400 2850
-F 0 "J?" V 1400 3550 50  0000 C CNN
+F 0 "J8" V 1400 3550 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 1950 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 2850 50  0001 C CNN
 F 3 "~" H 1400 2850 50  0001 C CNN
@@ -783,10 +783,10 @@ Connection ~ 1900 3050
 Wire Wire Line
 	1900 3050 2000 3050
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J9
 U 1 1 601F5828
 P 1400 3150
-F 0 "J?" V 1400 3850 50  0000 C CNN
+F 0 "J9" V 1400 3850 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 2250 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 3150 50  0001 C CNN
 F 3 "~" H 1400 3150 50  0001 C CNN
@@ -816,10 +816,10 @@ Connection ~ 1900 3350
 Wire Wire Line
 	1900 3350 2000 3350
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J10
 U 1 1 601F583C
 P 1400 3450
-F 0 "J?" V 1400 4150 50  0000 C CNN
+F 0 "J10" V 1400 4150 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 2550 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 3450 50  0001 C CNN
 F 3 "~" H 1400 3450 50  0001 C CNN
@@ -871,10 +871,10 @@ Connection ~ 1500 3350
 Wire Wire Line
 	1500 3350 1500 3650
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J11
 U 1 1 602096DD
 P 1400 3750
-F 0 "J?" V 1400 4450 50  0000 C CNN
+F 0 "J11" V 1400 4450 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 2850 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 3750 50  0001 C CNN
 F 3 "~" H 1400 3750 50  0001 C CNN
@@ -904,10 +904,10 @@ Connection ~ 1900 3950
 Wire Wire Line
 	1900 3950 2000 3950
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J12
 U 1 1 602096F1
 P 1400 4050
-F 0 "J?" V 1400 4750 50  0000 C CNN
+F 0 "J12" V 1400 4750 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 3150 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 4050 50  0001 C CNN
 F 3 "~" H 1400 4050 50  0001 C CNN
@@ -937,10 +937,10 @@ Connection ~ 1900 4250
 Wire Wire Line
 	1900 4250 2000 4250
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J13
 U 1 1 60209705
 P 1400 4350
-F 0 "J?" V 1400 5050 50  0000 C CNN
+F 0 "J13" V 1400 5050 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 3450 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 4350 50  0001 C CNN
 F 3 "~" H 1400 4350 50  0001 C CNN
@@ -970,10 +970,10 @@ Connection ~ 1900 4550
 Wire Wire Line
 	1900 4550 2000 4550
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J14
 U 1 1 60209719
 P 1400 4650
-F 0 "J?" V 1400 5350 50  0000 C CNN
+F 0 "J14" V 1400 5350 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 3750 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 4650 50  0001 C CNN
 F 3 "~" H 1400 4650 50  0001 C CNN
@@ -1003,10 +1003,10 @@ Connection ~ 1900 4850
 Wire Wire Line
 	1900 4850 2000 4850
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J15
 U 1 1 6020972D
 P 1400 4950
-F 0 "J?" V 1400 5650 50  0000 C CNN
+F 0 "J15" V 1400 5650 50  0000 C CNN
 F 1 "Conn_01x12" V 1400 4050 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1400 4950 50  0001 C CNN
 F 3 "~" H 1400 4950 50  0001 C CNN
@@ -1058,10 +1058,10 @@ Connection ~ 1500 4850
 Wire Wire Line
 	1500 4850 1500 5150
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J16
 U 1 1 6023ACB6
 P 4350 2550
-F 0 "J?" V 4350 3250 50  0000 C CNN
+F 0 "J16" V 4350 3250 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 1650 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 2550 50  0001 C CNN
 F 3 "~" H 4350 2550 50  0001 C CNN
@@ -1091,10 +1091,10 @@ Connection ~ 4850 2750
 Wire Wire Line
 	4850 2750 4950 2750
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J17
 U 1 1 6023ACCA
 P 4350 2850
-F 0 "J?" V 4350 3550 50  0000 C CNN
+F 0 "J17" V 4350 3550 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 1950 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 2850 50  0001 C CNN
 F 3 "~" H 4350 2850 50  0001 C CNN
@@ -1124,10 +1124,10 @@ Connection ~ 4850 3050
 Wire Wire Line
 	4850 3050 4950 3050
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J18
 U 1 1 6023ACDE
 P 4350 3150
-F 0 "J?" V 4350 3850 50  0000 C CNN
+F 0 "J18" V 4350 3850 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 2250 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 3150 50  0001 C CNN
 F 3 "~" H 4350 3150 50  0001 C CNN
@@ -1157,10 +1157,10 @@ Connection ~ 4850 3350
 Wire Wire Line
 	4850 3350 4950 3350
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J19
 U 1 1 6023ACF2
 P 4350 3450
-F 0 "J?" V 4350 4150 50  0000 C CNN
+F 0 "J19" V 4350 4150 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 2550 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 3450 50  0001 C CNN
 F 3 "~" H 4350 3450 50  0001 C CNN
@@ -1190,10 +1190,10 @@ Connection ~ 4850 3650
 Wire Wire Line
 	4850 3650 4950 3650
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J20
 U 1 1 6023AD06
 P 4350 3750
-F 0 "J?" V 4350 4450 50  0000 C CNN
+F 0 "J20" V 4350 4450 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 2850 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 3750 50  0001 C CNN
 F 3 "~" H 4350 3750 50  0001 C CNN
@@ -1245,10 +1245,10 @@ Connection ~ 4450 3650
 Wire Wire Line
 	4450 3650 4450 3950
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J21
 U 1 1 6023AD28
 P 4350 4050
-F 0 "J?" V 4350 4750 50  0000 C CNN
+F 0 "J21" V 4350 4750 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 3150 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 4050 50  0001 C CNN
 F 3 "~" H 4350 4050 50  0001 C CNN
@@ -1278,10 +1278,10 @@ Connection ~ 4850 4250
 Wire Wire Line
 	4850 4250 4950 4250
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J22
 U 1 1 6023AD3C
 P 4350 4350
-F 0 "J?" V 4350 5050 50  0000 C CNN
+F 0 "J22" V 4350 5050 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 3450 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 4350 50  0001 C CNN
 F 3 "~" H 4350 4350 50  0001 C CNN
@@ -1311,10 +1311,10 @@ Connection ~ 4850 4550
 Wire Wire Line
 	4850 4550 4950 4550
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J23
 U 1 1 6023AD50
 P 4350 4650
-F 0 "J?" V 4350 5350 50  0000 C CNN
+F 0 "J23" V 4350 5350 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 3750 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 4650 50  0001 C CNN
 F 3 "~" H 4350 4650 50  0001 C CNN
@@ -1344,10 +1344,10 @@ Connection ~ 4850 4850
 Wire Wire Line
 	4850 4850 4950 4850
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J24
 U 1 1 6023AD64
 P 4350 4950
-F 0 "J?" V 4350 5650 50  0000 C CNN
+F 0 "J24" V 4350 5650 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 4050 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 4950 50  0001 C CNN
 F 3 "~" H 4350 4950 50  0001 C CNN
@@ -1377,10 +1377,10 @@ Connection ~ 4850 5150
 Wire Wire Line
 	4850 5150 4950 5150
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J25
 U 1 1 6023AD78
 P 4350 5250
-F 0 "J?" V 4350 5950 50  0000 C CNN
+F 0 "J25" V 4350 5950 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 4350 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 5250 50  0001 C CNN
 F 3 "~" H 4350 5250 50  0001 C CNN
@@ -1432,10 +1432,10 @@ Connection ~ 4450 5150
 Wire Wire Line
 	4450 5150 4450 5450
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J26
 U 1 1 6023AD9A
 P 4350 5550
-F 0 "J?" V 4350 6250 50  0000 C CNN
+F 0 "J26" V 4350 6250 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 4650 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 5550 50  0001 C CNN
 F 3 "~" H 4350 5550 50  0001 C CNN
@@ -1465,10 +1465,10 @@ Connection ~ 4850 5750
 Wire Wire Line
 	4850 5750 4950 5750
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J27
 U 1 1 6023ADAE
 P 4350 5850
-F 0 "J?" V 4350 6550 50  0000 C CNN
+F 0 "J27" V 4350 6550 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 4950 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 5850 50  0001 C CNN
 F 3 "~" H 4350 5850 50  0001 C CNN
@@ -1498,10 +1498,10 @@ Connection ~ 4850 6050
 Wire Wire Line
 	4850 6050 4950 6050
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J28
 U 1 1 6023ADC2
 P 4350 6150
-F 0 "J?" V 4350 6850 50  0000 C CNN
+F 0 "J28" V 4350 6850 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 5250 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 6150 50  0001 C CNN
 F 3 "~" H 4350 6150 50  0001 C CNN
@@ -1531,10 +1531,10 @@ Connection ~ 4850 6350
 Wire Wire Line
 	4850 6350 4950 6350
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J29
 U 1 1 6023ADD6
 P 4350 6450
-F 0 "J?" V 4350 7150 50  0000 C CNN
+F 0 "J29" V 4350 7150 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 5550 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 6450 50  0001 C CNN
 F 3 "~" H 4350 6450 50  0001 C CNN
@@ -1564,10 +1564,10 @@ Connection ~ 4850 6650
 Wire Wire Line
 	4850 6650 4950 6650
 $Comp
-L Connector_Generic:Conn_01x12 J?
+L Connector_Generic:Conn_01x12 J30
 U 1 1 6023ADEA
 P 4350 6750
-F 0 "J?" V 4350 7450 50  0000 C CNN
+F 0 "J30" V 4350 7450 50  0000 C CNN
 F 1 "Conn_01x12" V 4350 5850 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 4350 6750 50  0001 C CNN
 F 3 "~" H 4350 6750 50  0001 C CNN
@@ -1619,13 +1619,13 @@ Connection ~ 4450 6650
 Wire Wire Line
 	4450 6650 4450 6950
 Text Label 2300 1550 0    50   ~ 0
-SDA
+Q1-SDA
 Text Label 2300 1850 0    50   ~ 0
-SCL
+Q1-SCL
 Text Label 5200 6650 0    50   ~ 0
-SDA
+Q2-SDA
 Text Label 5200 6950 0    50   ~ 0
-SCL
+Q2-SCL
 Text Label 2300 950  0    50   ~ 0
 Q1-GND
 Text Label 2300 1250 0    50   ~ 0

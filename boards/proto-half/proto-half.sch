@@ -140,7 +140,7 @@ U 1 1 600D06B0
 P 10400 5950
 F 0 "J38" H 10488 5864 50  0000 L CNN
 F 1 "Conn_01x04_MountingPin" H 10488 5773 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 10400 5950 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 10400 5950 50  0001 C CNN
 F 3 "~" H 10400 5950 50  0001 C CNN
 	1    10400 5950
 	1    0    0    -1  
@@ -165,7 +165,7 @@ U 1 1 600FF32F
 P 10350 1850
 F 0 "J37" H 10438 1764 50  0000 L CNN
 F 1 "Conn_01x04_MountingPin" H 10438 1673 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical" H 10350 1850 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 10350 1850 50  0001 C CNN
 F 3 "~" H 10350 1850 50  0001 C CNN
 	1    10350 1850
 	1    0    0    -1  
@@ -1618,21 +1618,21 @@ Wire Wire Line
 Connection ~ 4450 6650
 Wire Wire Line
 	4450 6650 4450 6950
-Text Label 2300 1550 0    50   ~ 0
-Q1-SDA
-Text Label 2300 1850 0    50   ~ 0
-Q1-SCL
-Text Label 5200 6650 0    50   ~ 0
-Q2-SDA
-Text Label 5200 6950 0    50   ~ 0
-Q2-SCL
-Text Label 2300 950  0    50   ~ 0
-Q1-GND
 Text Label 2300 1250 0    50   ~ 0
-Q1-3v3
-Text Label 5200 6050 0    50   ~ 0
-Q2-GND
+Q1-SDA
+Text Label 2300 950  0    50   ~ 0
+Q1-SCL
 Text Label 5200 6350 0    50   ~ 0
+Q2-SDA
+Text Label 5200 6050 0    50   ~ 0
+Q2-SCL
+Text Label 2300 1850 0    50   ~ 0
+Q1-GND
+Text Label 2300 1550 0    50   ~ 0
+Q1-3v3
+Text Label 5200 6950 0    50   ~ 0
+Q2-GND
+Text Label 5200 6650 0    50   ~ 0
 Q2-3v3
 Wire Wire Line
 	5200 6050 4950 6050
