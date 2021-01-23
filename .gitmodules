@@ -1,3 +1,6 @@
 [submodule "parts/KiCad-Libraries"]
 	path = parts/KiCad-Libraries
 	url = https://github.com/imciner2/KiCad-Libraries
+[submodule "parts/reform"]
+	path = parts/reform
+	url = https://source.mntmn.com/MNT/reform.git
