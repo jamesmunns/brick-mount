@@ -1,0 +1,1186 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mntcomp-keyboard:Choc SW1
+U 1 1 606DF304
+P 4250 2200
+F 0 "SW1" V 4350 2300 50  0000 L CNN
+F 1 "Choc" V 4150 2050 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 4448 2184 50  0001 L CNN
+F 3 "" H 4250 2200 50  0000 C CNN
+	1    4250 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF30A
+P 3900 2200
+AR Path="/606DF30A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF30A" Ref="D1"  Part="1" 
+F 0 "D1" H 3950 2300 50  0000 R CNN
+F 1 "D_Schottky" H 4200 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 2200 50  0001 C CNN
+F 3 "~" H 3900 2200 50  0001 C CNN
+	1    3900 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3750 2400 4600 2400
+Wire Notes Line
+	4600 2400 4600 2000
+Wire Notes Line
+	4600 2000 3750 2000
+Wire Notes Line
+	3750 2000 3750 2400
+$Comp
+L mntcomp-keyboard:Choc SW7
+U 1 1 606DF314
+P 5350 2200
+F 0 "SW7" V 5450 2300 50  0000 L CNN
+F 1 "Choc" V 5250 2050 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 5548 2184 50  0001 L CNN
+F 3 "" H 5350 2200 50  0000 C CNN
+	1    5350 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF31A
+P 5000 2200
+AR Path="/606DF31A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF31A" Ref="D7"  Part="1" 
+F 0 "D7" H 5050 2300 50  0000 R CNN
+F 1 "D_Schottky" H 5300 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    5000 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 2400 5700 2400
+Wire Notes Line
+	5700 2400 5700 2000
+Wire Notes Line
+	5700 2000 4850 2000
+Wire Notes Line
+	4850 2000 4850 2400
+$Comp
+L mntcomp-keyboard:Choc SW13
+U 1 1 606DF324
+P 6450 2200
+F 0 "SW13" V 6550 2300 50  0000 L CNN
+F 1 "Choc" V 6350 2050 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 6648 2184 50  0001 L CNN
+F 3 "" H 6450 2200 50  0000 C CNN
+	1    6450 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF32A
+P 6100 2200
+AR Path="/606DF32A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF32A" Ref="D13"  Part="1" 
+F 0 "D13" H 6150 2300 50  0000 R CNN
+F 1 "D_Schottky" H 6400 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 2200 50  0001 C CNN
+F 3 "~" H 6100 2200 50  0001 C CNN
+	1    6100 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5950 2400 6800 2400
+Wire Notes Line
+	6800 2400 6800 2000
+Wire Notes Line
+	6800 2000 5950 2000
+Wire Notes Line
+	5950 2000 5950 2400
+$Comp
+L mntcomp-keyboard:Choc SW19
+U 1 1 606DF334
+P 7550 2200
+F 0 "SW19" V 7650 2300 50  0000 L CNN
+F 1 "Choc" V 7450 2050 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7748 2184 50  0001 L CNN
+F 3 "" H 7550 2200 50  0000 C CNN
+	1    7550 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF33A
+P 7200 2200
+AR Path="/606DF33A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF33A" Ref="D19"  Part="1" 
+F 0 "D19" H 7250 2300 50  0000 R CNN
+F 1 "D_Schottky" H 7500 2100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 2200 50  0001 C CNN
+F 3 "~" H 7200 2200 50  0001 C CNN
+	1    7200 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 2400 7900 2400
+Wire Notes Line
+	7900 2400 7900 2000
+Wire Notes Line
+	7900 2000 7050 2000
+Wire Notes Line
+	7050 2000 7050 2400
+$Comp
+L mntcomp-keyboard:Choc SW2
+U 1 1 606DF344
+P 4250 2850
+F 0 "SW2" V 4350 2950 50  0000 L CNN
+F 1 "Choc" V 4150 2700 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 4448 2834 50  0001 L CNN
+F 3 "" H 4250 2850 50  0000 C CNN
+	1    4250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF34A
+P 3900 2850
+AR Path="/606DF34A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF34A" Ref="D2"  Part="1" 
+F 0 "D2" H 3950 2950 50  0000 R CNN
+F 1 "D_Schottky" H 4200 2750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 2850 50  0001 C CNN
+F 3 "~" H 3900 2850 50  0001 C CNN
+	1    3900 2850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3750 3050 4600 3050
+Wire Notes Line
+	4600 3050 4600 2650
+Wire Notes Line
+	4600 2650 3750 2650
+Wire Notes Line
+	3750 2650 3750 3050
+$Comp
+L mntcomp-keyboard:Choc SW8
+U 1 1 606DF354
+P 5350 2850
+F 0 "SW8" V 5450 2950 50  0000 L CNN
+F 1 "Choc" V 5250 2700 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 5548 2834 50  0001 L CNN
+F 3 "" H 5350 2850 50  0000 C CNN
+	1    5350 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF35A
+P 5000 2850
+AR Path="/606DF35A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF35A" Ref="D8"  Part="1" 
+F 0 "D8" H 5050 2950 50  0000 R CNN
+F 1 "D_Schottky" H 5300 2750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5000 2850 50  0001 C CNN
+F 3 "~" H 5000 2850 50  0001 C CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 3050 5700 3050
+Wire Notes Line
+	5700 3050 5700 2650
+Wire Notes Line
+	5700 2650 4850 2650
+Wire Notes Line
+	4850 2650 4850 3050
+$Comp
+L mntcomp-keyboard:Choc SW14
+U 1 1 606DF364
+P 6450 2850
+F 0 "SW14" V 6550 2950 50  0000 L CNN
+F 1 "Choc" V 6350 2700 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 6648 2834 50  0001 L CNN
+F 3 "" H 6450 2850 50  0000 C CNN
+	1    6450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF36A
+P 6100 2850
+AR Path="/606DF36A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF36A" Ref="D14"  Part="1" 
+F 0 "D14" H 6150 2950 50  0000 R CNN
+F 1 "D_Schottky" H 6400 2750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 2850 50  0001 C CNN
+F 3 "~" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5950 3050 6800 3050
+Wire Notes Line
+	6800 3050 6800 2650
+Wire Notes Line
+	6800 2650 5950 2650
+Wire Notes Line
+	5950 2650 5950 3050
+$Comp
+L mntcomp-keyboard:Choc SW20
+U 1 1 606DF374
+P 7550 2850
+F 0 "SW20" V 7650 2950 50  0000 L CNN
+F 1 "Choc" V 7450 2700 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7748 2834 50  0001 L CNN
+F 3 "" H 7550 2850 50  0000 C CNN
+	1    7550 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF37A
+P 7200 2850
+AR Path="/606DF37A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF37A" Ref="D20"  Part="1" 
+F 0 "D20" H 7250 2950 50  0000 R CNN
+F 1 "D_Schottky" H 7500 2750 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 2850 50  0001 C CNN
+F 3 "~" H 7200 2850 50  0001 C CNN
+	1    7200 2850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 3050 7900 3050
+Wire Notes Line
+	7900 3050 7900 2650
+Wire Notes Line
+	7900 2650 7050 2650
+Wire Notes Line
+	7050 2650 7050 3050
+$Comp
+L mntcomp-keyboard:Choc SW3
+U 1 1 606DF384
+P 4250 3500
+F 0 "SW3" V 4350 3600 50  0000 L CNN
+F 1 "Choc" V 4150 3350 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 4448 3484 50  0001 L CNN
+F 3 "" H 4250 3500 50  0000 C CNN
+	1    4250 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF38A
+P 3900 3500
+AR Path="/606DF38A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF38A" Ref="D3"  Part="1" 
+F 0 "D3" H 3950 3600 50  0000 R CNN
+F 1 "D_Schottky" H 4200 3400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 3500 50  0001 C CNN
+F 3 "~" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3750 3700 4600 3700
+Wire Notes Line
+	4600 3700 4600 3300
+Wire Notes Line
+	4600 3300 3750 3300
+Wire Notes Line
+	3750 3300 3750 3700
+$Comp
+L mntcomp-keyboard:Choc SW9
+U 1 1 606DF394
+P 5350 3500
+F 0 "SW9" V 5450 3600 50  0000 L CNN
+F 1 "Choc" V 5250 3350 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 5548 3484 50  0001 L CNN
+F 3 "" H 5350 3500 50  0000 C CNN
+	1    5350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF39A
+P 5000 3500
+AR Path="/606DF39A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF39A" Ref="D9"  Part="1" 
+F 0 "D9" H 5050 3600 50  0000 R CNN
+F 1 "D_Schottky" H 5300 3400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5000 3500 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 3700 5700 3700
+Wire Notes Line
+	5700 3700 5700 3300
+Wire Notes Line
+	5700 3300 4850 3300
+Wire Notes Line
+	4850 3300 4850 3700
+$Comp
+L mntcomp-keyboard:Choc SW15
+U 1 1 606DF3A4
+P 6450 3500
+F 0 "SW15" V 6550 3600 50  0000 L CNN
+F 1 "Choc" V 6350 3350 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 6648 3484 50  0001 L CNN
+F 3 "" H 6450 3500 50  0000 C CNN
+	1    6450 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF3AA
+P 6100 3500
+AR Path="/606DF3AA" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF3AA" Ref="D15"  Part="1" 
+F 0 "D15" H 6150 3600 50  0000 R CNN
+F 1 "D_Schottky" H 6400 3400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 3500 50  0001 C CNN
+F 3 "~" H 6100 3500 50  0001 C CNN
+	1    6100 3500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5950 3700 6800 3700
+Wire Notes Line
+	6800 3700 6800 3300
+Wire Notes Line
+	6800 3300 5950 3300
+Wire Notes Line
+	5950 3300 5950 3700
+$Comp
+L mntcomp-keyboard:Choc SW21
+U 1 1 606DF3B4
+P 7550 3500
+F 0 "SW21" V 7650 3600 50  0000 L CNN
+F 1 "Choc" V 7450 3350 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7748 3484 50  0001 L CNN
+F 3 "" H 7550 3500 50  0000 C CNN
+	1    7550 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF3BA
+P 7200 3500
+AR Path="/606DF3BA" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF3BA" Ref="D21"  Part="1" 
+F 0 "D21" H 7250 3600 50  0000 R CNN
+F 1 "D_Schottky" H 7500 3400 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 3500 50  0001 C CNN
+F 3 "~" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 3700 7900 3700
+Wire Notes Line
+	7900 3700 7900 3300
+Wire Notes Line
+	7900 3300 7050 3300
+Wire Notes Line
+	7050 3300 7050 3700
+$Comp
+L mntcomp-keyboard:Choc SW4
+U 1 1 606DF3C4
+P 4250 4150
+F 0 "SW4" V 4350 4250 50  0000 L CNN
+F 1 "Choc" V 4150 4000 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 4448 4134 50  0001 L CNN
+F 3 "" H 4250 4150 50  0000 C CNN
+	1    4250 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF3CA
+P 3900 4150
+AR Path="/606DF3CA" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF3CA" Ref="D4"  Part="1" 
+F 0 "D4" H 3950 4250 50  0000 R CNN
+F 1 "D_Schottky" H 4200 4050 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 4150 50  0001 C CNN
+F 3 "~" H 3900 4150 50  0001 C CNN
+	1    3900 4150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3750 4350 4600 4350
+Wire Notes Line
+	4600 4350 4600 3950
+Wire Notes Line
+	4600 3950 3750 3950
+Wire Notes Line
+	3750 3950 3750 4350
+$Comp
+L mntcomp-keyboard:Choc SW10
+U 1 1 606DF3D4
+P 5350 4150
+F 0 "SW10" V 5450 4250 50  0000 L CNN
+F 1 "Choc" V 5250 4000 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 5548 4134 50  0001 L CNN
+F 3 "" H 5350 4150 50  0000 C CNN
+	1    5350 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF3DA
+P 5000 4150
+AR Path="/606DF3DA" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF3DA" Ref="D10"  Part="1" 
+F 0 "D10" H 5050 4250 50  0000 R CNN
+F 1 "D_Schottky" H 5300 4050 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5000 4150 50  0001 C CNN
+F 3 "~" H 5000 4150 50  0001 C CNN
+	1    5000 4150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 4350 5700 4350
+Wire Notes Line
+	5700 4350 5700 3950
+Wire Notes Line
+	5700 3950 4850 3950
+Wire Notes Line
+	4850 3950 4850 4350
+$Comp
+L mntcomp-keyboard:Choc SW16
+U 1 1 606DF3E4
+P 6450 4150
+F 0 "SW16" V 6550 4250 50  0000 L CNN
+F 1 "Choc" V 6350 4000 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 6648 4134 50  0001 L CNN
+F 3 "" H 6450 4150 50  0000 C CNN
+	1    6450 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF3EA
+P 6100 4150
+AR Path="/606DF3EA" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF3EA" Ref="D16"  Part="1" 
+F 0 "D16" H 6150 4250 50  0000 R CNN
+F 1 "D_Schottky" H 6400 4050 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 4150 50  0001 C CNN
+F 3 "~" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5950 4350 6800 4350
+Wire Notes Line
+	6800 4350 6800 3950
+Wire Notes Line
+	6800 3950 5950 3950
+Wire Notes Line
+	5950 3950 5950 4350
+$Comp
+L mntcomp-keyboard:Choc SW22
+U 1 1 606DF3F4
+P 7550 4150
+F 0 "SW22" V 7650 4250 50  0000 L CNN
+F 1 "Choc" V 7450 4000 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7748 4134 50  0001 L CNN
+F 3 "" H 7550 4150 50  0000 C CNN
+	1    7550 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF3FA
+P 7200 4150
+AR Path="/606DF3FA" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF3FA" Ref="D22"  Part="1" 
+F 0 "D22" H 7250 4250 50  0000 R CNN
+F 1 "D_Schottky" H 7500 4050 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 4150 50  0001 C CNN
+F 3 "~" H 7200 4150 50  0001 C CNN
+	1    7200 4150
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 4350 7900 4350
+Wire Notes Line
+	7900 4350 7900 3950
+Wire Notes Line
+	7900 3950 7050 3950
+Wire Notes Line
+	7050 3950 7050 4350
+$Comp
+L mntcomp-keyboard:Choc SW5
+U 1 1 606DF404
+P 4250 4800
+F 0 "SW5" V 4350 4900 50  0000 L CNN
+F 1 "Choc" V 4150 4650 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 4448 4784 50  0001 L CNN
+F 3 "" H 4250 4800 50  0000 C CNN
+	1    4250 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF40A
+P 3900 4800
+AR Path="/606DF40A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF40A" Ref="D5"  Part="1" 
+F 0 "D5" H 3950 4900 50  0000 R CNN
+F 1 "D_Schottky" H 4200 4700 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 4800 50  0001 C CNN
+F 3 "~" H 3900 4800 50  0001 C CNN
+	1    3900 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3750 5000 4600 5000
+Wire Notes Line
+	4600 5000 4600 4600
+Wire Notes Line
+	4600 4600 3750 4600
+Wire Notes Line
+	3750 4600 3750 5000
+$Comp
+L mntcomp-keyboard:Choc SW11
+U 1 1 606DF414
+P 5350 4800
+F 0 "SW11" V 5450 4900 50  0000 L CNN
+F 1 "Choc" V 5250 4650 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 5548 4784 50  0001 L CNN
+F 3 "" H 5350 4800 50  0000 C CNN
+	1    5350 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF41A
+P 5000 4800
+AR Path="/606DF41A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF41A" Ref="D11"  Part="1" 
+F 0 "D11" H 5050 4900 50  0000 R CNN
+F 1 "D_Schottky" H 5300 4700 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5000 4800 50  0001 C CNN
+F 3 "~" H 5000 4800 50  0001 C CNN
+	1    5000 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 5000 5700 5000
+Wire Notes Line
+	5700 5000 5700 4600
+Wire Notes Line
+	5700 4600 4850 4600
+Wire Notes Line
+	4850 4600 4850 5000
+$Comp
+L mntcomp-keyboard:Choc SW17
+U 1 1 606DF424
+P 6450 4800
+F 0 "SW17" V 6550 4900 50  0000 L CNN
+F 1 "Choc" V 6350 4650 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 6648 4784 50  0001 L CNN
+F 3 "" H 6450 4800 50  0000 C CNN
+	1    6450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF42A
+P 6100 4800
+AR Path="/606DF42A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF42A" Ref="D17"  Part="1" 
+F 0 "D17" H 6150 4900 50  0000 R CNN
+F 1 "D_Schottky" H 6400 4700 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 4800 50  0001 C CNN
+F 3 "~" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5950 5000 6800 5000
+Wire Notes Line
+	6800 5000 6800 4600
+Wire Notes Line
+	6800 4600 5950 4600
+Wire Notes Line
+	5950 4600 5950 5000
+$Comp
+L mntcomp-keyboard:Choc SW23
+U 1 1 606DF434
+P 7550 4800
+F 0 "SW23" V 7650 4900 50  0000 L CNN
+F 1 "Choc" V 7450 4650 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7748 4784 50  0001 L CNN
+F 3 "" H 7550 4800 50  0000 C CNN
+	1    7550 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF43A
+P 7200 4800
+AR Path="/606DF43A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF43A" Ref="D23"  Part="1" 
+F 0 "D23" H 7250 4900 50  0000 R CNN
+F 1 "D_Schottky" H 7500 4700 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 4800 50  0001 C CNN
+F 3 "~" H 7200 4800 50  0001 C CNN
+	1    7200 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 5000 7900 5000
+Wire Notes Line
+	7900 5000 7900 4600
+Wire Notes Line
+	7900 4600 7050 4600
+Wire Notes Line
+	7050 4600 7050 5000
+$Comp
+L mntcomp-keyboard:Choc SW6
+U 1 1 606DF444
+P 4250 5450
+F 0 "SW6" V 4350 5550 50  0000 L CNN
+F 1 "Choc" V 4150 5300 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 4448 5434 50  0001 L CNN
+F 3 "" H 4250 5450 50  0000 C CNN
+	1    4250 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF44A
+P 3900 5450
+AR Path="/606DF44A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF44A" Ref="D6"  Part="1" 
+F 0 "D6" H 3950 5550 50  0000 R CNN
+F 1 "D_Schottky" H 4200 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 5450 50  0001 C CNN
+F 3 "~" H 3900 5450 50  0001 C CNN
+	1    3900 5450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3750 5650 4600 5650
+Wire Notes Line
+	4600 5650 4600 5250
+Wire Notes Line
+	4600 5250 3750 5250
+Wire Notes Line
+	3750 5250 3750 5650
+$Comp
+L mntcomp-keyboard:Choc SW12
+U 1 1 606DF454
+P 5350 5450
+F 0 "SW12" V 5450 5550 50  0000 L CNN
+F 1 "Choc" V 5250 5300 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 5548 5434 50  0001 L CNN
+F 3 "" H 5350 5450 50  0000 C CNN
+	1    5350 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF45A
+P 5000 5450
+AR Path="/606DF45A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF45A" Ref="D12"  Part="1" 
+F 0 "D12" H 5050 5550 50  0000 R CNN
+F 1 "D_Schottky" H 5300 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5000 5450 50  0001 C CNN
+F 3 "~" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4850 5650 5700 5650
+Wire Notes Line
+	5700 5650 5700 5250
+Wire Notes Line
+	5700 5250 4850 5250
+Wire Notes Line
+	4850 5250 4850 5650
+$Comp
+L mntcomp-keyboard:Choc SW18
+U 1 1 606DF464
+P 6450 5450
+F 0 "SW18" V 6550 5550 50  0000 L CNN
+F 1 "Choc" V 6350 5300 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 6648 5434 50  0001 L CNN
+F 3 "" H 6450 5450 50  0000 C CNN
+	1    6450 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF46A
+P 6100 5450
+AR Path="/606DF46A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF46A" Ref="D18"  Part="1" 
+F 0 "D18" H 6150 5550 50  0000 R CNN
+F 1 "D_Schottky" H 6400 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6100 5450 50  0001 C CNN
+F 3 "~" H 6100 5450 50  0001 C CNN
+	1    6100 5450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5950 5650 6800 5650
+Wire Notes Line
+	6800 5650 6800 5250
+Wire Notes Line
+	6800 5250 5950 5250
+Wire Notes Line
+	5950 5250 5950 5650
+$Comp
+L mntcomp-keyboard:Choc SW24
+U 1 1 606DF474
+P 7550 5450
+F 0 "SW24" V 7650 5550 50  0000 L CNN
+F 1 "Choc" V 7450 5300 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7748 5434 50  0001 L CNN
+F 3 "" H 7550 5450 50  0000 C CNN
+	1    7550 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 606DF47A
+P 7200 5450
+AR Path="/606DF47A" Ref="D?"  Part="1" 
+AR Path="/606BBF10/606DF47A" Ref="D24"  Part="1" 
+F 0 "D24" H 7250 5550 50  0000 R CNN
+F 1 "D_Schottky" H 7500 5350 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7200 5450 50  0001 C CNN
+F 3 "~" H 7200 5450 50  0001 C CNN
+	1    7200 5450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7050 5650 7900 5650
+Wire Notes Line
+	7900 5650 7900 5250
+Wire Notes Line
+	7900 5250 7050 5250
+Wire Notes Line
+	7050 5250 7050 5650
+$Comp
+L power:VCC #PWR?
+U 1 1 606DF484
+P 4700 1500
+AR Path="/606DF484" Ref="#PWR?"  Part="1" 
+AR Path="/606BBF10/606DF484" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 4700 1350 50  0001 C CNN
+F 1 "VCC" H 4715 1673 50  0000 C CNN
+F 2 "" H 4700 1500 50  0001 C CNN
+F 3 "" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 606DF48A
+P 5800 1500
+AR Path="/606DF48A" Ref="#PWR?"  Part="1" 
+AR Path="/606BBF10/606DF48A" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 5800 1350 50  0001 C CNN
+F 1 "VCC" H 5815 1673 50  0000 C CNN
+F 2 "" H 5800 1500 50  0001 C CNN
+F 3 "" H 5800 1500 50  0001 C CNN
+	1    5800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 606DF490
+P 6900 1500
+AR Path="/606DF490" Ref="#PWR?"  Part="1" 
+AR Path="/606BBF10/606DF490" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 6900 1350 50  0001 C CNN
+F 1 "VCC" H 6915 1673 50  0000 C CNN
+F 2 "" H 6900 1500 50  0001 C CNN
+F 3 "" H 6900 1500 50  0001 C CNN
+	1    6900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 606DF496
+P 8000 1500
+AR Path="/606DF496" Ref="#PWR?"  Part="1" 
+AR Path="/606BBF10/606DF496" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 8000 1350 50  0001 C CNN
+F 1 "VCC" H 8015 1673 50  0000 C CNN
+F 2 "" H 8000 1500 50  0001 C CNN
+F 3 "" H 8000 1500 50  0001 C CNN
+	1    8000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606DF49C
+P 4700 1650
+AR Path="/606DF49C" Ref="R?"  Part="1" 
+AR Path="/606BBF10/606DF49C" Ref="R1"  Part="1" 
+F 0 "R1" H 4770 1696 50  0000 L CNN
+F 1 "10K" H 4770 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 1650 50  0001 C CNN
+F 3 "~" H 4700 1650 50  0001 C CNN
+	1    4700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606DF4A2
+P 5800 1650
+AR Path="/606DF4A2" Ref="R?"  Part="1" 
+AR Path="/606BBF10/606DF4A2" Ref="R2"  Part="1" 
+F 0 "R2" H 5870 1696 50  0000 L CNN
+F 1 "10K" H 5870 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5730 1650 50  0001 C CNN
+F 3 "~" H 5800 1650 50  0001 C CNN
+	1    5800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606DF4A8
+P 6900 1650
+AR Path="/606DF4A8" Ref="R?"  Part="1" 
+AR Path="/606BBF10/606DF4A8" Ref="R3"  Part="1" 
+F 0 "R3" H 6970 1696 50  0000 L CNN
+F 1 "10K" H 6970 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 1650 50  0001 C CNN
+F 3 "~" H 6900 1650 50  0001 C CNN
+	1    6900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 606DF4AE
+P 8000 1650
+AR Path="/606DF4AE" Ref="R?"  Part="1" 
+AR Path="/606BBF10/606DF4AE" Ref="R4"  Part="1" 
+F 0 "R4" H 8070 1696 50  0000 L CNN
+F 1 "10K" H 8070 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7930 1650 50  0001 C CNN
+F 3 "~" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1800 4700 2200
+Wire Wire Line
+	4700 5450 4600 5450
+Wire Wire Line
+	4600 4800 4700 4800
+Connection ~ 4700 4800
+Wire Wire Line
+	4700 4800 4700 5450
+Wire Wire Line
+	4600 4150 4700 4150
+Connection ~ 4700 4150
+Wire Wire Line
+	4700 4150 4700 4800
+Wire Wire Line
+	4600 3500 4700 3500
+Connection ~ 4700 3500
+Wire Wire Line
+	4700 3500 4700 4150
+Wire Wire Line
+	4600 2850 4700 2850
+Connection ~ 4700 2850
+Wire Wire Line
+	4700 2850 4700 3500
+Wire Wire Line
+	4600 2200 4700 2200
+Connection ~ 4700 2200
+Wire Wire Line
+	4700 2200 4700 2850
+Wire Wire Line
+	5800 1800 5800 2200
+Wire Wire Line
+	5800 5450 5700 5450
+Wire Wire Line
+	5700 4800 5800 4800
+Connection ~ 5800 4800
+Wire Wire Line
+	5800 4800 5800 5450
+Wire Wire Line
+	5700 4150 5800 4150
+Connection ~ 5800 4150
+Wire Wire Line
+	5800 4150 5800 4800
+Wire Wire Line
+	5700 3500 5800 3500
+Connection ~ 5800 3500
+Wire Wire Line
+	5800 3500 5800 4150
+Wire Wire Line
+	5700 2850 5800 2850
+Connection ~ 5800 2850
+Wire Wire Line
+	5800 2850 5800 3500
+Wire Wire Line
+	5700 2200 5800 2200
+Connection ~ 5800 2200
+Wire Wire Line
+	5800 2200 5800 2850
+Wire Wire Line
+	6900 1800 6900 2200
+Wire Wire Line
+	6900 5450 6800 5450
+Wire Wire Line
+	6800 4800 6900 4800
+Connection ~ 6900 4800
+Wire Wire Line
+	6900 4800 6900 5450
+Wire Wire Line
+	6800 4150 6900 4150
+Connection ~ 6900 4150
+Wire Wire Line
+	6900 4150 6900 4800
+Wire Wire Line
+	6800 3500 6900 3500
+Connection ~ 6900 3500
+Wire Wire Line
+	6900 3500 6900 4150
+Wire Wire Line
+	6800 2850 6900 2850
+Connection ~ 6900 2850
+Wire Wire Line
+	6900 2850 6900 3500
+Wire Wire Line
+	6800 2200 6900 2200
+Connection ~ 6900 2200
+Wire Wire Line
+	6900 2200 6900 2850
+Wire Wire Line
+	8000 1800 8000 2200
+Wire Wire Line
+	8000 5450 7900 5450
+Wire Wire Line
+	7900 4800 8000 4800
+Connection ~ 8000 4800
+Wire Wire Line
+	8000 4800 8000 5450
+Wire Wire Line
+	7900 4150 8000 4150
+Connection ~ 8000 4150
+Wire Wire Line
+	8000 4150 8000 4800
+Wire Wire Line
+	7900 3500 8000 3500
+Connection ~ 8000 3500
+Wire Wire Line
+	8000 3500 8000 4150
+Wire Wire Line
+	7900 2850 8000 2850
+Connection ~ 8000 2850
+Wire Wire Line
+	8000 2850 8000 3500
+Wire Wire Line
+	7900 2200 8000 2200
+Connection ~ 8000 2200
+Wire Wire Line
+	8000 2200 8000 2850
+Wire Wire Line
+	7050 2200 7000 2200
+Wire Wire Line
+	7000 2200 7000 2500
+Wire Wire Line
+	7000 2500 5900 2500
+Wire Wire Line
+	7050 2850 7000 2850
+Wire Wire Line
+	7000 2850 7000 3150
+Wire Wire Line
+	7000 3150 5900 3150
+Wire Wire Line
+	7050 3500 7000 3500
+Wire Wire Line
+	7000 3500 7000 3800
+Wire Wire Line
+	7000 3800 5900 3800
+Wire Wire Line
+	7050 4150 7000 4150
+Wire Wire Line
+	7000 4150 7000 4450
+Wire Wire Line
+	7000 4450 5900 4450
+Wire Wire Line
+	7050 4800 7000 4800
+Wire Wire Line
+	7000 4800 7000 5100
+Wire Wire Line
+	7000 5100 5900 5100
+Wire Wire Line
+	7050 5450 7000 5450
+Wire Wire Line
+	7000 5450 7000 5750
+Wire Wire Line
+	7000 5750 5900 5750
+Wire Wire Line
+	5950 5450 5900 5450
+Wire Wire Line
+	5900 5450 5900 5750
+Connection ~ 5900 5750
+Wire Wire Line
+	5900 5750 4800 5750
+Wire Wire Line
+	4850 5450 4800 5450
+Wire Wire Line
+	4800 5450 4800 5750
+Connection ~ 4800 5750
+Wire Wire Line
+	4800 5750 3700 5750
+Wire Wire Line
+	3750 5450 3700 5450
+Wire Wire Line
+	3700 5450 3700 5750
+Connection ~ 3700 5750
+Wire Wire Line
+	3700 5750 3250 5750
+Wire Wire Line
+	5950 4800 5900 4800
+Wire Wire Line
+	5900 4800 5900 5100
+Connection ~ 5900 5100
+Wire Wire Line
+	5900 5100 4800 5100
+Wire Wire Line
+	4850 4800 4800 4800
+Wire Wire Line
+	4800 4800 4800 5100
+Connection ~ 4800 5100
+Wire Wire Line
+	4800 5100 3700 5100
+Wire Wire Line
+	3750 4800 3700 4800
+Wire Wire Line
+	3700 4800 3700 5100
+Connection ~ 3700 5100
+Wire Wire Line
+	3700 5100 3250 5100
+Wire Wire Line
+	3750 4150 3700 4150
+Wire Wire Line
+	3700 4150 3700 4450
+Connection ~ 3700 4450
+Wire Wire Line
+	3700 4450 3250 4450
+Wire Wire Line
+	4850 4150 4800 4150
+Wire Wire Line
+	4800 4150 4800 4450
+Connection ~ 4800 4450
+Wire Wire Line
+	4800 4450 3700 4450
+Wire Wire Line
+	5950 4150 5900 4150
+Wire Wire Line
+	5900 4150 5900 4450
+Connection ~ 5900 4450
+Wire Wire Line
+	5900 4450 4800 4450
+Wire Wire Line
+	5950 3500 5900 3500
+Wire Wire Line
+	5900 3500 5900 3800
+Connection ~ 5900 3800
+Wire Wire Line
+	5900 3800 4800 3800
+Wire Wire Line
+	4850 3500 4800 3500
+Wire Wire Line
+	4800 3500 4800 3800
+Connection ~ 4800 3800
+Wire Wire Line
+	4800 3800 3700 3800
+Wire Wire Line
+	3750 3500 3700 3500
+Wire Wire Line
+	3700 3500 3700 3800
+Connection ~ 3700 3800
+Wire Wire Line
+	3700 3800 3250 3800
+Wire Wire Line
+	5950 2850 5900 2850
+Wire Wire Line
+	5900 2850 5900 3150
+Connection ~ 5900 3150
+Wire Wire Line
+	5900 3150 4800 3150
+Wire Wire Line
+	4850 2850 4800 2850
+Wire Wire Line
+	4800 2850 4800 3150
+Connection ~ 4800 3150
+Wire Wire Line
+	4800 3150 3700 3150
+Wire Wire Line
+	3750 2850 3700 2850
+Wire Wire Line
+	3700 2850 3700 3150
+Connection ~ 3700 3150
+Wire Wire Line
+	3700 3150 3250 3150
+Wire Wire Line
+	5950 2200 5900 2200
+Wire Wire Line
+	5900 2200 5900 2500
+Connection ~ 5900 2500
+Wire Wire Line
+	5900 2500 4800 2500
+Wire Wire Line
+	4850 2200 4800 2200
+Wire Wire Line
+	4800 2200 4800 2500
+Connection ~ 4800 2500
+Wire Wire Line
+	4800 2500 3700 2500
+Wire Wire Line
+	3750 2200 3700 2200
+Wire Wire Line
+	3700 2200 3700 2500
+Connection ~ 3700 2500
+Wire Wire Line
+	3700 2500 3250 2500
+Text HLabel 3250 2500 0    50   Output ~ 0
+ROW1
+Text HLabel 3250 3150 0    50   Output ~ 0
+ROW2
+Text HLabel 3250 3800 0    50   Output ~ 0
+ROW3
+Text HLabel 3250 4450 0    50   Output ~ 0
+ROW4
+Text HLabel 3250 5100 0    50   Output ~ 0
+ROW5
+Text HLabel 3250 5750 0    50   Output ~ 0
+ROW6
+Text HLabel 4700 1800 2    50   Input ~ 0
+COL1
+Text HLabel 5800 1800 2    50   Input ~ 0
+COL2
+Text HLabel 6900 1800 2    50   Input ~ 0
+COL3
+Text HLabel 8000 1800 2    50   Input ~ 0
+COL4
+$EndSCHEMATC

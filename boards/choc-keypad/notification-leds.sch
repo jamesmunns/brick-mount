@@ -1,0 +1,953 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 60953356
+P 1300 1650
+AR Path="/60953356" Ref="D?"  Part="1" 
+AR Path="/60710E82/60953356" Ref="D?"  Part="1" 
+AR Path="/60952582/60953356" Ref="D49"  Part="1" 
+F 0 "D49" H 1300 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 1300 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 1300 1850 50  0001 C CNN
+F 3 "" H 1300 1850 50  0001 C CNN
+	1    1300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609541E4
+P 2150 1650
+AR Path="/609541E4" Ref="D?"  Part="1" 
+AR Path="/60710E82/609541E4" Ref="D?"  Part="1" 
+AR Path="/60952582/609541E4" Ref="D50"  Part="1" 
+F 0 "D50" H 2150 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 2150 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 2150 1850 50  0001 C CNN
+F 3 "" H 2150 1850 50  0001 C CNN
+	1    2150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609565AC
+P 3000 1650
+AR Path="/609565AC" Ref="D?"  Part="1" 
+AR Path="/60710E82/609565AC" Ref="D?"  Part="1" 
+AR Path="/60952582/609565AC" Ref="D51"  Part="1" 
+F 0 "D51" H 3000 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 3000 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 3000 1850 50  0001 C CNN
+F 3 "" H 3000 1850 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609565B2
+P 3850 1650
+AR Path="/609565B2" Ref="D?"  Part="1" 
+AR Path="/60710E82/609565B2" Ref="D?"  Part="1" 
+AR Path="/60952582/609565B2" Ref="D52"  Part="1" 
+F 0 "D52" H 3850 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 3850 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 3850 1850 50  0001 C CNN
+F 3 "" H 3850 1850 50  0001 C CNN
+	1    3850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 60959074
+P 4700 1650
+AR Path="/60959074" Ref="D?"  Part="1" 
+AR Path="/60710E82/60959074" Ref="D?"  Part="1" 
+AR Path="/60952582/60959074" Ref="D53"  Part="1" 
+F 0 "D53" H 4700 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 4700 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 4700 1850 50  0001 C CNN
+F 3 "" H 4700 1850 50  0001 C CNN
+	1    4700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 6095907A
+P 5550 1650
+AR Path="/6095907A" Ref="D?"  Part="1" 
+AR Path="/60710E82/6095907A" Ref="D?"  Part="1" 
+AR Path="/60952582/6095907A" Ref="D54"  Part="1" 
+F 0 "D54" H 5550 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 5550 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 5550 1850 50  0001 C CNN
+F 3 "" H 5550 1850 50  0001 C CNN
+	1    5550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 60959080
+P 6400 1650
+AR Path="/60959080" Ref="D?"  Part="1" 
+AR Path="/60710E82/60959080" Ref="D?"  Part="1" 
+AR Path="/60952582/60959080" Ref="D56"  Part="1" 
+F 0 "D56" H 6400 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 6400 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 6400 1850 50  0001 C CNN
+F 3 "" H 6400 1850 50  0001 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 60959086
+P 7250 1650
+AR Path="/60959086" Ref="D?"  Part="1" 
+AR Path="/60710E82/60959086" Ref="D?"  Part="1" 
+AR Path="/60952582/60959086" Ref="D58"  Part="1" 
+F 0 "D58" H 7250 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 7250 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 7250 1850 50  0001 C CNN
+F 3 "" H 7250 1850 50  0001 C CNN
+	1    7250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 6095C4DE
+P 8100 1650
+AR Path="/6095C4DE" Ref="D?"  Part="1" 
+AR Path="/60710E82/6095C4DE" Ref="D?"  Part="1" 
+AR Path="/60952582/6095C4DE" Ref="D60"  Part="1" 
+F 0 "D60" H 8100 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 8100 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 8100 1850 50  0001 C CNN
+F 3 "" H 8100 1850 50  0001 C CNN
+	1    8100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 6095C4E4
+P 8950 1650
+AR Path="/6095C4E4" Ref="D?"  Part="1" 
+AR Path="/60710E82/6095C4E4" Ref="D?"  Part="1" 
+AR Path="/60952582/6095C4E4" Ref="D62"  Part="1" 
+F 0 "D62" H 8950 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 8950 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 8950 1850 50  0001 C CNN
+F 3 "" H 8950 1850 50  0001 C CNN
+	1    8950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 6095C4EA
+P 9800 1650
+AR Path="/6095C4EA" Ref="D?"  Part="1" 
+AR Path="/60710E82/6095C4EA" Ref="D?"  Part="1" 
+AR Path="/60952582/6095C4EA" Ref="D64"  Part="1" 
+F 0 "D64" H 9800 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 9800 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 9800 1850 50  0001 C CNN
+F 3 "" H 9800 1850 50  0001 C CNN
+	1    9800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 6095C4F0
+P 10650 1650
+AR Path="/6095C4F0" Ref="D?"  Part="1" 
+AR Path="/60710E82/6095C4F0" Ref="D?"  Part="1" 
+AR Path="/60952582/6095C4F0" Ref="D66"  Part="1" 
+F 0 "D66" H 10650 1450 50  0000 C CNN
+F 1 "TC2020-RGB" H 10650 1200 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 10650 1850 50  0001 C CNN
+F 3 "" H 10650 1850 50  0001 C CNN
+	1    10650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665B6
+P 10650 2700
+AR Path="/609665B6" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665B6" Ref="D?"  Part="1" 
+AR Path="/60952582/609665B6" Ref="D67"  Part="1" 
+F 0 "D67" H 10650 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 10650 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 10650 2900 50  0001 C CNN
+F 3 "" H 10650 2900 50  0001 C CNN
+	1    10650 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665BC
+P 9800 2700
+AR Path="/609665BC" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665BC" Ref="D?"  Part="1" 
+AR Path="/60952582/609665BC" Ref="D65"  Part="1" 
+F 0 "D65" H 9800 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 9800 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 9800 2900 50  0001 C CNN
+F 3 "" H 9800 2900 50  0001 C CNN
+	1    9800 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665C2
+P 8950 2700
+AR Path="/609665C2" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665C2" Ref="D?"  Part="1" 
+AR Path="/60952582/609665C2" Ref="D63"  Part="1" 
+F 0 "D63" H 8950 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 8950 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 8950 2900 50  0001 C CNN
+F 3 "" H 8950 2900 50  0001 C CNN
+	1    8950 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665C8
+P 8100 2700
+AR Path="/609665C8" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665C8" Ref="D?"  Part="1" 
+AR Path="/60952582/609665C8" Ref="D61"  Part="1" 
+F 0 "D61" H 8100 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 8100 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 8100 2900 50  0001 C CNN
+F 3 "" H 8100 2900 50  0001 C CNN
+	1    8100 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665CE
+P 7250 2700
+AR Path="/609665CE" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665CE" Ref="D?"  Part="1" 
+AR Path="/60952582/609665CE" Ref="D59"  Part="1" 
+F 0 "D59" H 7250 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 7250 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 7250 2900 50  0001 C CNN
+F 3 "" H 7250 2900 50  0001 C CNN
+	1    7250 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665D4
+P 6400 2700
+AR Path="/609665D4" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665D4" Ref="D?"  Part="1" 
+AR Path="/60952582/609665D4" Ref="D57"  Part="1" 
+F 0 "D57" H 6400 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 6400 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 6400 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L brick-misc:TC2020-RGB D?
+U 1 1 609665DA
+P 5550 2700
+AR Path="/609665DA" Ref="D?"  Part="1" 
+AR Path="/60710E82/609665DA" Ref="D?"  Part="1" 
+AR Path="/60952582/609665DA" Ref="D55"  Part="1" 
+F 0 "D55" H 5550 2500 50  0000 C CNN
+F 1 "TC2020-RGB" H 5550 2250 50  0001 C CNN
+F 2 "brick-misc:TC2020RGB" H 5550 2900 50  0001 C CNN
+F 3 "" H 5550 2900 50  0001 C CNN
+	1    5550 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 1950 1750 1950
+Wire Wire Line
+	1750 1950 1750 1750
+Wire Wire Line
+	1750 1750 1850 1750
+Wire Wire Line
+	2450 1950 2600 1950
+Wire Wire Line
+	2600 1950 2600 1750
+Wire Wire Line
+	2600 1750 2700 1750
+Wire Wire Line
+	3300 1950 3450 1950
+Wire Wire Line
+	3450 1950 3450 1750
+Wire Wire Line
+	3450 1750 3550 1750
+Wire Wire Line
+	4150 1950 4300 1950
+Wire Wire Line
+	4300 1950 4300 1750
+Wire Wire Line
+	4300 1750 4400 1750
+Wire Wire Line
+	5000 1950 5150 1950
+Wire Wire Line
+	5150 1950 5150 1750
+Wire Wire Line
+	5150 1750 5250 1750
+Wire Wire Line
+	5850 1950 6000 1950
+Wire Wire Line
+	6000 1950 6000 1750
+Wire Wire Line
+	6000 1750 6100 1750
+Wire Wire Line
+	6700 1950 6850 1950
+Wire Wire Line
+	6850 1950 6850 1750
+Wire Wire Line
+	6850 1750 6950 1750
+Wire Wire Line
+	7550 1950 7700 1950
+Wire Wire Line
+	7700 1950 7700 1750
+Wire Wire Line
+	7700 1750 7800 1750
+Wire Wire Line
+	8400 1950 8550 1950
+Wire Wire Line
+	8550 1950 8550 1750
+Wire Wire Line
+	8550 1750 8650 1750
+Wire Wire Line
+	9250 1950 9400 1950
+Wire Wire Line
+	9400 1950 9400 1750
+Wire Wire Line
+	9400 1750 9500 1750
+Wire Wire Line
+	10100 1950 10250 1950
+Wire Wire Line
+	10250 1950 10250 1750
+Wire Wire Line
+	10250 1750 10350 1750
+Wire Wire Line
+	10950 1950 11100 1950
+Wire Wire Line
+	11100 1950 11100 2600
+Wire Wire Line
+	11100 2600 10950 2600
+Wire Wire Line
+	10100 2600 10250 2600
+Wire Wire Line
+	10250 2600 10250 2400
+Wire Wire Line
+	10250 2400 10350 2400
+Wire Wire Line
+	9250 2600 9400 2600
+Wire Wire Line
+	9400 2600 9400 2400
+Wire Wire Line
+	9400 2400 9500 2400
+Wire Wire Line
+	8400 2600 8550 2600
+Wire Wire Line
+	8550 2600 8550 2400
+Wire Wire Line
+	8550 2400 8650 2400
+Wire Wire Line
+	7550 2600 7700 2600
+Wire Wire Line
+	7700 2600 7700 2400
+Wire Wire Line
+	7700 2400 7800 2400
+Wire Wire Line
+	6700 2600 6850 2600
+Wire Wire Line
+	6850 2600 6850 2400
+Wire Wire Line
+	6850 2400 6950 2400
+Wire Wire Line
+	5850 2600 6000 2600
+Wire Wire Line
+	6000 2600 6000 2400
+Wire Wire Line
+	6000 2400 6100 2400
+Wire Wire Line
+	1000 1950 1000 2150
+Wire Wire Line
+	1000 2150 1850 2150
+Wire Wire Line
+	10350 2150 10350 1950
+Wire Wire Line
+	9500 1950 9500 2150
+Connection ~ 9500 2150
+Wire Wire Line
+	9500 2150 10100 2150
+Wire Wire Line
+	8650 1950 8650 2150
+Connection ~ 8650 2150
+Wire Wire Line
+	8650 2150 9250 2150
+Wire Wire Line
+	7800 1950 7800 2150
+Connection ~ 7800 2150
+Wire Wire Line
+	7800 2150 8400 2150
+Wire Wire Line
+	6950 1950 6950 2150
+Connection ~ 6950 2150
+Wire Wire Line
+	6950 2150 7550 2150
+Wire Wire Line
+	6100 1950 6100 2150
+Connection ~ 6100 2150
+Wire Wire Line
+	6100 2150 6700 2150
+Wire Wire Line
+	5250 1950 5250 2150
+Connection ~ 5250 2150
+Wire Wire Line
+	5250 2150 5850 2150
+Wire Wire Line
+	4400 1950 4400 2150
+Connection ~ 4400 2150
+Wire Wire Line
+	4400 2150 5250 2150
+Wire Wire Line
+	3550 1950 3550 2150
+Connection ~ 3550 2150
+Wire Wire Line
+	3550 2150 4400 2150
+Wire Wire Line
+	2700 1950 2700 2150
+Connection ~ 2700 2150
+Wire Wire Line
+	2700 2150 3550 2150
+Wire Wire Line
+	1850 1950 1850 2150
+Connection ~ 1850 2150
+Wire Wire Line
+	1850 2150 2700 2150
+$Comp
+L power:VCC #PWR0131
+U 1 1 60984B5F
+P 650 1950
+F 0 "#PWR0131" H 650 1800 50  0001 C CNN
+F 1 "VCC" H 665 2123 50  0000 C CNN
+F 2 "" H 650 1950 50  0001 C CNN
+F 3 "" H 650 1950 50  0001 C CNN
+	1    650  1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2150 650  2150
+Wire Wire Line
+	650  2150 650  1950
+Connection ~ 1000 2150
+Wire Wire Line
+	1600 1750 1600 1550
+Wire Wire Line
+	1600 1550 2450 1550
+Wire Wire Line
+	10950 1550 10950 1750
+Wire Wire Line
+	10100 1750 10100 1550
+Connection ~ 10100 1550
+Wire Wire Line
+	10100 1550 10950 1550
+Wire Wire Line
+	9250 1750 9250 1550
+Connection ~ 9250 1550
+Wire Wire Line
+	9250 1550 10100 1550
+Wire Wire Line
+	8400 1750 8400 1550
+Connection ~ 8400 1550
+Wire Wire Line
+	8400 1550 9250 1550
+Wire Wire Line
+	7550 1750 7550 1550
+Connection ~ 7550 1550
+Wire Wire Line
+	7550 1550 8400 1550
+Wire Wire Line
+	6700 1750 6700 1550
+Connection ~ 6700 1550
+Wire Wire Line
+	6700 1550 7550 1550
+Wire Wire Line
+	5850 1750 5850 1550
+Connection ~ 5850 1550
+Wire Wire Line
+	5850 1550 6700 1550
+Wire Wire Line
+	5000 1750 5000 1550
+Connection ~ 5000 1550
+Wire Wire Line
+	5000 1550 5850 1550
+Wire Wire Line
+	4150 1750 4150 1550
+Connection ~ 4150 1550
+Wire Wire Line
+	4150 1550 5000 1550
+Wire Wire Line
+	3300 1750 3300 1550
+Connection ~ 3300 1550
+Wire Wire Line
+	3300 1550 4150 1550
+Wire Wire Line
+	2450 1750 2450 1550
+Connection ~ 2450 1550
+Wire Wire Line
+	2450 1550 3300 1550
+$Comp
+L power:GND #PWR0132
+U 1 1 609A4FA4
+P 11100 1550
+F 0 "#PWR0132" H 11100 1300 50  0001 C CNN
+F 1 "GND" H 11105 1377 50  0000 C CNN
+F 2 "" H 11100 1550 50  0001 C CNN
+F 3 "" H 11100 1550 50  0001 C CNN
+	1    11100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 1550 10950 1550
+Connection ~ 10950 1550
+Wire Wire Line
+	5250 2600 5250 2800
+Wire Wire Line
+	5250 2800 6100 2800
+Wire Wire Line
+	10350 2800 10350 2600
+Wire Wire Line
+	9500 2600 9500 2800
+Connection ~ 9500 2800
+Wire Wire Line
+	9500 2800 10350 2800
+Wire Wire Line
+	8650 2600 8650 2800
+Connection ~ 8650 2800
+Wire Wire Line
+	8650 2800 9500 2800
+Wire Wire Line
+	7800 2600 7800 2800
+Connection ~ 7800 2800
+Wire Wire Line
+	7800 2800 8650 2800
+Wire Wire Line
+	6950 2600 6950 2800
+Connection ~ 6950 2800
+Wire Wire Line
+	6950 2800 7800 2800
+Wire Wire Line
+	6100 2600 6100 2800
+Connection ~ 6100 2800
+Wire Wire Line
+	6100 2800 6950 2800
+Wire Wire Line
+	10950 2400 10950 2150
+Wire Wire Line
+	10950 2150 10350 2150
+Connection ~ 10350 2150
+Wire Wire Line
+	10100 2400 10100 2150
+Connection ~ 10100 2150
+Wire Wire Line
+	10100 2150 10350 2150
+Wire Wire Line
+	9250 2400 9250 2150
+Connection ~ 9250 2150
+Wire Wire Line
+	9250 2150 9500 2150
+Wire Wire Line
+	8400 2400 8400 2150
+Connection ~ 8400 2150
+Wire Wire Line
+	8400 2150 8650 2150
+Wire Wire Line
+	7550 2400 7550 2150
+Connection ~ 7550 2150
+Wire Wire Line
+	7550 2150 7800 2150
+Wire Wire Line
+	6700 2400 6700 2150
+Connection ~ 6700 2150
+Wire Wire Line
+	6700 2150 6950 2150
+Wire Wire Line
+	5850 2400 5850 2150
+Connection ~ 5850 2150
+Wire Wire Line
+	5850 2150 6100 2150
+$Comp
+L power:GND #PWR0133
+U 1 1 609DBF3A
+P 5250 2800
+F 0 "#PWR0133" H 5250 2550 50  0001 C CNN
+F 1 "GND" H 5255 2627 50  0000 C CNN
+F 2 "" H 5250 2800 50  0001 C CNN
+F 3 "" H 5250 2800 50  0001 C CNN
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 2800
+Text HLabel 1000 1750 0    50   Input ~ 0
+DIN
+Text HLabel 5250 2400 0    50   Output ~ 0
+DOUT
+$Comp
+L Device:C C?
+U 1 1 609ED335
+P 1650 4450
+F 0 "C?" H 1700 4550 50  0000 L CNN
+F 1 "1uF" H 1700 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 4300 50  0001 C CNN
+F 3 "~" H 1650 4450 50  0001 C CNN
+	1    1650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609F234B
+P 1950 4450
+F 0 "C?" H 2000 4550 50  0000 L CNN
+F 1 "1uF" H 2000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 4300 50  0001 C CNN
+F 3 "~" H 1950 4450 50  0001 C CNN
+	1    1950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609F6B65
+P 2250 4450
+F 0 "C?" H 2300 4550 50  0000 L CNN
+F 1 "1uF" H 2300 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 4300 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+	1    2250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609FB6C9
+P 2550 4450
+F 0 "C?" H 2600 4550 50  0000 L CNN
+F 1 "1uF" H 2600 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2588 4300 50  0001 C CNN
+F 3 "~" H 2550 4450 50  0001 C CNN
+	1    2550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0179C
+P 2850 4450
+F 0 "C?" H 2900 4550 50  0000 L CNN
+F 1 "1uF" H 2900 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 4300 50  0001 C CNN
+F 3 "~" H 2850 4450 50  0001 C CNN
+	1    2850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A017A2
+P 3150 4450
+F 0 "C?" H 3200 4550 50  0000 L CNN
+F 1 "1uF" H 3200 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3188 4300 50  0001 C CNN
+F 3 "~" H 3150 4450 50  0001 C CNN
+	1    3150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A017A8
+P 3450 4450
+F 0 "C?" H 3500 4550 50  0000 L CNN
+F 1 "1uF" H 3500 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 4300 50  0001 C CNN
+F 3 "~" H 3450 4450 50  0001 C CNN
+	1    3450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A017AE
+P 3750 4450
+F 0 "C?" H 3800 4550 50  0000 L CNN
+F 1 "1uF" H 3800 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 4300 50  0001 C CNN
+F 3 "~" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A08673
+P 4050 4450
+F 0 "C?" H 4100 4550 50  0000 L CNN
+F 1 "1uF" H 4100 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 4300 50  0001 C CNN
+F 3 "~" H 4050 4450 50  0001 C CNN
+	1    4050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A08679
+P 4350 4450
+F 0 "C?" H 4400 4550 50  0000 L CNN
+F 1 "1uF" H 4400 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 4300 50  0001 C CNN
+F 3 "~" H 4350 4450 50  0001 C CNN
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0867F
+P 4650 4450
+F 0 "C?" H 4700 4550 50  0000 L CNN
+F 1 "1uF" H 4700 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 4300 50  0001 C CNN
+F 3 "~" H 4650 4450 50  0001 C CNN
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A08685
+P 4950 4450
+F 0 "C?" H 5000 4550 50  0000 L CNN
+F 1 "1uF" H 5000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 4300 50  0001 C CNN
+F 3 "~" H 4950 4450 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0868B
+P 5250 4450
+F 0 "C?" H 5300 4550 50  0000 L CNN
+F 1 "1uF" H 5300 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 4300 50  0001 C CNN
+F 3 "~" H 5250 4450 50  0001 C CNN
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A08691
+P 5550 4450
+F 0 "C?" H 5600 4550 50  0000 L CNN
+F 1 "1uF" H 5600 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5588 4300 50  0001 C CNN
+F 3 "~" H 5550 4450 50  0001 C CNN
+	1    5550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A08697
+P 5850 4450
+F 0 "C?" H 5900 4550 50  0000 L CNN
+F 1 "1uF" H 5900 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 4300 50  0001 C CNN
+F 3 "~" H 5850 4450 50  0001 C CNN
+	1    5850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0869D
+P 6150 4450
+F 0 "C?" H 6200 4550 50  0000 L CNN
+F 1 "1uF" H 6200 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 4300 50  0001 C CNN
+F 3 "~" H 6150 4450 50  0001 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0ECD2
+P 6450 4450
+F 0 "C?" H 6500 4550 50  0000 L CNN
+F 1 "1uF" H 6500 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 4300 50  0001 C CNN
+F 3 "~" H 6450 4450 50  0001 C CNN
+	1    6450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0ECD8
+P 6750 4450
+F 0 "C?" H 6800 4550 50  0000 L CNN
+F 1 "1uF" H 6800 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 4300 50  0001 C CNN
+F 3 "~" H 6750 4450 50  0001 C CNN
+	1    6750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A0ECDE
+P 7050 4450
+F 0 "C?" H 7100 4550 50  0000 L CNN
+F 1 "1uF" H 7100 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 4300 50  0001 C CNN
+F 3 "~" H 7050 4450 50  0001 C CNN
+	1    7050 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4300 1950 4300
+Connection ~ 1950 4300
+Wire Wire Line
+	1950 4300 2250 4300
+Connection ~ 2250 4300
+Wire Wire Line
+	2250 4300 2550 4300
+Connection ~ 2550 4300
+Wire Wire Line
+	2550 4300 2850 4300
+Connection ~ 2850 4300
+Wire Wire Line
+	2850 4300 3150 4300
+Connection ~ 3150 4300
+Wire Wire Line
+	3150 4300 3450 4300
+Connection ~ 3450 4300
+Wire Wire Line
+	3450 4300 3750 4300
+Connection ~ 3750 4300
+Wire Wire Line
+	3750 4300 4050 4300
+Connection ~ 4050 4300
+Wire Wire Line
+	4050 4300 4350 4300
+Connection ~ 4350 4300
+Wire Wire Line
+	4350 4300 4650 4300
+Connection ~ 4650 4300
+Wire Wire Line
+	4650 4300 4950 4300
+Connection ~ 4950 4300
+Wire Wire Line
+	4950 4300 5250 4300
+Connection ~ 5250 4300
+Wire Wire Line
+	5250 4300 5550 4300
+Connection ~ 5550 4300
+Wire Wire Line
+	5550 4300 5850 4300
+Connection ~ 5850 4300
+Wire Wire Line
+	5850 4300 6150 4300
+Connection ~ 6150 4300
+Wire Wire Line
+	6150 4300 6450 4300
+Connection ~ 6450 4300
+Wire Wire Line
+	6450 4300 6750 4300
+Connection ~ 6750 4300
+Wire Wire Line
+	6750 4300 7050 4300
+Wire Wire Line
+	7050 4600 6750 4600
+Connection ~ 1950 4600
+Wire Wire Line
+	1950 4600 1650 4600
+Connection ~ 2250 4600
+Wire Wire Line
+	2250 4600 1950 4600
+Connection ~ 2550 4600
+Wire Wire Line
+	2550 4600 2250 4600
+Connection ~ 2850 4600
+Wire Wire Line
+	2850 4600 2550 4600
+Connection ~ 3150 4600
+Wire Wire Line
+	3150 4600 2850 4600
+Connection ~ 3450 4600
+Wire Wire Line
+	3450 4600 3150 4600
+Connection ~ 3750 4600
+Wire Wire Line
+	3750 4600 3450 4600
+Connection ~ 4050 4600
+Wire Wire Line
+	4050 4600 3750 4600
+Connection ~ 4350 4600
+Wire Wire Line
+	4350 4600 4050 4600
+Connection ~ 4650 4600
+Wire Wire Line
+	4650 4600 4350 4600
+Connection ~ 4950 4600
+Wire Wire Line
+	4950 4600 4650 4600
+Connection ~ 5250 4600
+Wire Wire Line
+	5250 4600 4950 4600
+Connection ~ 5550 4600
+Wire Wire Line
+	5550 4600 5250 4600
+Connection ~ 5850 4600
+Wire Wire Line
+	5850 4600 5550 4600
+Connection ~ 6150 4600
+Wire Wire Line
+	6150 4600 5850 4600
+Connection ~ 6450 4600
+Wire Wire Line
+	6450 4600 6150 4600
+Connection ~ 6750 4600
+Wire Wire Line
+	6750 4600 6450 4600
+$Comp
+L power:GND #PWR?
+U 1 1 60A2508C
+P 1650 4600
+F 0 "#PWR?" H 1650 4350 50  0001 C CNN
+F 1 "GND" H 1655 4427 50  0000 C CNN
+F 2 "" H 1650 4600 50  0001 C CNN
+F 3 "" H 1650 4600 50  0001 C CNN
+	1    1650 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 4600
+$Comp
+L power:VCC #PWR?
+U 1 1 60A25529
+P 1650 4300
+F 0 "#PWR?" H 1650 4150 50  0001 C CNN
+F 1 "VCC" H 1665 4473 50  0000 C CNN
+F 2 "" H 1650 4300 50  0001 C CNN
+F 3 "" H 1650 4300 50  0001 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 4300
+$EndSCHEMATC

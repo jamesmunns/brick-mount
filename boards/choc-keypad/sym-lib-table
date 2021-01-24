@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mntcomp-keyboard)(type Legacy)(uri /home/james/hardware/brick-mount/parts/reform/reform2-keyboard-pcb/mntcomp-keyboard.lib)(options "")(descr ""))
+  (lib (name brick-misc)(type Legacy)(uri /home/james/hardware/brick-mount/parts/brick-misc.lib)(options "")(descr ""))
+)
