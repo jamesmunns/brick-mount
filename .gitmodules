@@ -4,3 +4,6 @@
 [submodule "parts/reform"]
 	path = parts/reform
 	url = https://source.mntmn.com/MNT/reform.git
+[submodule "parts/kicad_libs"]
+	path = parts/kicad_libs
+	url = https://github.com/jamesmunns/kicad_libs/

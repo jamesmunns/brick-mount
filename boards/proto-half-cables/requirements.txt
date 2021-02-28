@@ -1,0 +1,13 @@
+click==7.1.2
+euclid3==0.1
+KiKit==0.6.1
+markdown2==2.3.10
+numpy==1.19.4
+prettytable==0.7.2
+pybars3==0.9.7
+PyMeta3==0.5.1
+pypng==0.0.19
+regex==2019.12.20
+Shapely==1.7.1
+solidpython==1.0.4
+versioneer==0.19

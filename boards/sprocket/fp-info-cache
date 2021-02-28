@@ -1,4 +1,4 @@
-19105730508671890
+19108880998057002
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -56364,6 +56364,13 @@ ADAFRUIT_FEATHER
 32
 28
 Modules
+ADAFRUIT_FEATHER_NOHOLES
+
+
+0
+28
+28
+Modules
 ESP-12S
 
 
@@ -83040,6 +83047,13 @@ brick-2x4
 0
 8
 8
+footprints
+STM32G031F8P6
+
+
+0
+20
+20
 modules
 MODULE_NRF52840-DONGLE
 

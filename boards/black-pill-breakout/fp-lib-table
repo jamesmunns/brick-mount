@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name brick-4_9id-6_0od)(type KiCad)(uri /home/james/hardware/brick-mount/parts/brick-4_9id-6_0od.pretty)(options "")(descr ""))
+  (lib (name Everything)(type KiCad)(uri /home/james/hardware/brick-mount/parts/kicad_libs/Everything.pretty)(options "")(descr ""))
+  (lib (name usb-c-pill)(type KiCad)(uri /home/james/hardware/brick-mount/parts/kicad_libs/usb-c-pill/usb-c-pill.pretty)(options "")(descr ""))
+)
