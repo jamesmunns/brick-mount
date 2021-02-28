@@ -1133,8 +1133,6 @@ Text Label 2200 2800 3    50   ~ 0
 GPIO6
 Text Label 2300 2800 3    50   ~ 0
 GPIO7
-Text Label 2400 2800 3    50   ~ 0
-GPIO8
 Text Label 9550 5500 2    50   ~ 0
 GPIO1
 Text Label 9550 5400 2    50   ~ 0
@@ -1188,10 +1186,10 @@ Wire Wire Line
 	9550 5700 9650 5700
 Connection ~ 9650 5700
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP1
 U 1 1 6083046C
 P 8450 2350
-F 0 "JP?" V 8450 2418 50  0000 L CNN
+F 0 "JP1" V 8450 2418 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 8495 2418 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8450 2350 50  0001 C CNN
 F 3 "~" H 8450 2350 50  0001 C CNN
@@ -1199,10 +1197,10 @@ F 3 "~" H 8450 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP2
 U 1 1 6083209C
 P 8450 2650
-F 0 "JP?" V 8300 2450 50  0000 L CNN
+F 0 "JP2" V 8300 2450 50  0000 L CNN
 F 1 "SolderJumper_2_Open" V 8400 1750 50  0001 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8450 2650 50  0001 C CNN
 F 3 "~" H 8450 2650 50  0001 C CNN
@@ -1213,10 +1211,10 @@ Wire Wire Line
 	7850 2500 8450 2500
 Connection ~ 8450 2500
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0133
 U 1 1 6086425C
 P 8450 2200
-F 0 "#PWR?" H 8450 2050 50  0001 C CNN
+F 0 "#PWR0133" H 8450 2050 50  0001 C CNN
 F 1 "+5V" H 8465 2373 50  0000 C CNN
 F 2 "" H 8450 2200 50  0001 C CNN
 F 3 "" H 8450 2200 50  0001 C CNN
@@ -1227,4 +1225,37 @@ Wire Wire Line
 	8450 2800 8450 2950
 Wire Notes Line
 	8850 1700 8850 3150
+$Comp
+L Connector_Generic:Conn_01x04 J20
+U 1 1 608D965C
+P 2100 750
+F 0 "J20" V 2064 462 50  0000 R CNN
+F 1 "Conn_01x04" V 1973 462 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 2100 750 50  0001 C CNN
+F 3 "~" H 2100 750 50  0001 C CNN
+	1    2100 750 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 950  2000 1700
+Wire Wire Line
+	2100 1700 2100 950 
+Wire Wire Line
+	2200 1700 2200 950 
+Wire Wire Line
+	2300 950  2300 1700
+NoConn ~ 3300 1700
+NoConn ~ 3400 1700
+NoConn ~ 3500 1700
+NoConn ~ 3600 1700
+NoConn ~ 2900 2800
+NoConn ~ 2800 2800
+NoConn ~ 2500 2800
+NoConn ~ 2400 2800
+Text Notes 2400 2850 3    50   ~ 0
+USB
+Text Notes 2500 2850 3    50   ~ 0
+USB
+Text Label 2600 2800 3    50   ~ 0
+GPIO8
 $EndSCHEMATC
