@@ -1,0 +1,23 @@
+1 - GND
+2 - 3v3
+3 - SDA
+4 - SCL
+M - GND
+
+
+
+SPI CSN  - 01 | 12 - USART-RX
+SPI COPI - 02 | 11 - USART-TX
+SPI CIPO - 03 | 10 - GND
+SPI SCK  - 04 | 09 - GND
+I2C SCL  - 05 | 08 - 3v3
+I2C SDA  - 06 | 07 - 5v0
+
+HOW DID I EVEN GET THESE SO MIXED UP?!?!
+
+SPI COPI - 02 | 01 - SPI CSn
+SPI SCK  - 04 | 03 - SPI CIPO
+I2C SDA  - 06 | 05 - I2C SCL
+3v3      - 08 | 07 - 5v0
+GND      - 10 | 09 - GND
+USART-RX - 12 | 11 - USART-TX

@@ -1297,12 +1297,12 @@ Connectors
 Text Notes 9150 6100 2    100  ~ 0
 Circuit Components
 $Comp
-L Everything:SPROCKET-CONN J?
+L Everything:SPROCKET-CONN J1
 U 1 1 607795BD
 P 1400 5350
-F 0 "J?" H 1400 5515 50  0000 C CNN
+F 0 "J1" H 1400 5515 50  0000 C CNN
 F 1 "SPROCKET-CONN" H 1400 5424 50  0000 C CNN
-F 2 "" H 1400 5400 50  0001 C CNN
+F 2 "Everything:sprocket-pins" H 1400 5400 50  0001 C CNN
 F 3 "" H 1400 5400 50  0001 C CNN
 	1    1400 5350
 	1    0    0    -1  

@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/stm32g0/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /home/james/hardware/brick-mount/parts/STM32G031G8U6/footprints.pretty)(options "")(descr ""))
+  (lib (name Everything)(type KiCad)(uri /home/james/hardware/brick-mount/parts/kicad_libs/Everything.pretty)(options "")(descr ""))
   (lib (name brick-4_9id-6_0od)(type KiCad)(uri /home/james/hardware/brick-mount/parts/brick-4_9id-6_0od.pretty)(options "")(descr ""))
 )

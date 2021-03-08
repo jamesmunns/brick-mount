@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name stm32g0)(type Legacy)(uri ${KIPRJMOD}/stm32g0/stm32g0.lib)(options "")(descr ""))
+  (lib (name STM32G031G8U6)(type Legacy)(uri /home/james/hardware/brick-mount/parts/STM32G031G8U6/STM32G031G8U6.lib)(options "")(descr ""))
+  (lib (name Everything)(type Legacy)(uri /home/james/hardware/brick-mount/parts/kicad_libs/Everything.lib)(options "")(descr ""))
 )
