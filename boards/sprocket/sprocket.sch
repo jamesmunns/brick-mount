@@ -1075,60 +1075,6 @@ Wire Notes Line
 	500  4100 2300 4100
 Text Notes 1600 4200 2    50   ~ 0
 QWIIC Daisy Chain Jumpers
-$Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 6067FFF6
-P 3100 4850
-F 0 "JP6" H 3100 5055 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 3100 4964 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3100 4850 50  0001 C CNN
-F 3 "~" H 3100 4850 50  0001 C CNN
-	1    3100 4850
-	1    0    0    -1  
-$EndComp
-Text Label 2950 4850 2    50   ~ 0
-QWIIC2-SDA
-Text Label 3250 4850 0    50   ~ 0
-QWIIC2-SCL
-Text Notes 3450 4600 2    50   ~ 0
-Open Drain UART Jumper
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 6069AF59
-P 3100 4300
-F 0 "JP5" H 3100 4505 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 3100 4414 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3100 4300 50  0001 C CNN
-F 3 "~" H 3100 4300 50  0001 C CNN
-	1    3100 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 606A0041
-P 3400 4300
-F 0 "R1" V 3300 4300 50  0000 C CNN
-F 1 "10K" V 3400 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 4300 50  0001 C CNN
-F 3 "~" H 3400 4300 50  0001 C CNN
-	1    3400 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0135
-U 1 1 606A1D31
-P 3550 4300
-F 0 "#PWR0135" H 3550 4150 50  0001 C CNN
-F 1 "+3V3" H 3565 4473 50  0000 C CNN
-F 2 "" H 3550 4300 50  0001 C CNN
-F 3 "" H 3550 4300 50  0001 C CNN
-	1    3550 4300
-	1    0    0    -1  
-$EndComp
-Text Label 2950 4300 2    50   ~ 0
-QWIIC2-SCL
-Text Notes 3400 4000 2    50   ~ 0
-Open Drain UART Pullup\n
 Wire Notes Line
 	3900 3850 2300 3850
 Text Label 1200 2950 2    50   ~ 0
@@ -1139,46 +1085,20 @@ Text Label 1500 3100 0    50   ~ 0
 I2C1-SCL
 Text Label 1500 2950 0    50   ~ 0
 I2C1-SDA
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 606C75BE
-P 1350 3600
-F 0 "JP1" H 1350 3805 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1350 3714 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1350 3600 50  0001 C CNN
-F 3 "~" H 1350 3600 50  0001 C CNN
-	1    1350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 606C75C4
-P 1350 3950
-F 0 "JP2" H 1350 4155 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 1350 4064 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1350 3950 50  0001 C CNN
-F 3 "~" H 1350 3950 50  0001 C CNN
-	1    1350 3950
-	1    0    0    -1  
-$EndComp
-Text Label 1500 3600 0    50   ~ 0
+Text Label 1200 3250 2    50   ~ 0
 QWIIC2-SDA
-Text Label 1500 3950 0    50   ~ 0
+Text Label 1200 3400 2    50   ~ 0
 QWIIC2-SCL
-Text Label 1200 3600 2    50   ~ 0
+Text Label 1500 3250 0    50   ~ 0
 I2C2-SDA
-Text Label 1200 3950 2    50   ~ 0
+Text Label 1500 3400 0    50   ~ 0
 I2C2-SCL
 Wire Wire Line
 	1200 2950 1500 2950
 Wire Wire Line
 	1200 3100 1500 3100
 Wire Notes Line
-	500  3250 2300 3250
-Wire Notes Line
 	2300 2650 2300 7750
-Text Notes 1450 3350 2    50   ~ 0
-I2C2 to QWIIC Jumpers
 Text Notes 1750 2750 2    50   ~ 0
 Unnecessary Labels for Clarity
 $Comp
@@ -1241,8 +1161,6 @@ Text Label 850  7050 2    50   ~ 0
 UART-RX
 Text Label 1950 7050 0    50   ~ 0
 UART-TX
-Wire Notes Line
-	2350 4450 3850 4450
 $Comp
 L Connector_Generic:Conn_01x02 MH1
 U 1 1 6071CF6D
@@ -1297,14 +1215,18 @@ Connectors
 Text Notes 9150 6100 2    100  ~ 0
 Circuit Components
 $Comp
-L Everything:SPROCKET-CONN J?
+L Everything:SPROCKET-CONN J1
 U 1 1 607795BD
 P 1400 5350
-F 0 "J?" H 1400 5515 50  0000 C CNN
+F 0 "J1" H 1400 5515 50  0000 C CNN
 F 1 "SPROCKET-CONN" H 1400 5424 50  0000 C CNN
 F 2 "Everything:sprocket-pins" H 1400 5400 50  0001 C CNN
 F 3 "" H 1400 5400 50  0001 C CNN
 	1    1400 5350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1500 3250 1200 3250
+Wire Wire Line
+	1500 3400 1200 3400
 $EndSCHEMATC
