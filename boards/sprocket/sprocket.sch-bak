@@ -1230,10 +1230,10 @@ Wire Notes Line
 Wire Notes Line
 	3900 3850 2350 3850
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 6047197A
 P 3300 4250
-F 0 "TP?" V 3254 4438 50  0000 L CNN
+F 0 "TP1" V 3254 4438 50  0000 L CNN
 F 1 "TestPoint" V 3345 4438 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3500 4250 50  0001 C CNN
 F 3 "~" H 3500 4250 50  0001 C CNN

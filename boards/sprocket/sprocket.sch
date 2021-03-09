@@ -633,8 +633,6 @@ Text Label 8000 5100 0    50   ~ 0
 SMARTLED-5V0
 Text Label 6350 5300 2    50   ~ 0
 SMARTLED-OUT
-Text Notes 5750 5400 0    50   ~ 0
-TODO: Bring out?
 Wire Wire Line
 	7400 5300 7150 5300
 Wire Wire Line
