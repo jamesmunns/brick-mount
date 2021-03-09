@@ -1047,10 +1047,10 @@ U 1 1 60649ED7
 P 1350 4500
 F 0 "JP3" H 1350 4705 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 1350 4614 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1350 4500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1350 4500 50  0001 C CNN
 F 3 "~" H 1350 4500 50  0001 C CNN
 	1    1350 4500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP4
@@ -1058,7 +1058,7 @@ U 1 1 6064B86F
 P 1350 4850
 F 0 "JP4" H 1350 5055 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 1350 4964 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1350 4850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1350 4850 50  0001 C CNN
 F 3 "~" H 1350 4850 50  0001 C CNN
 	1    1350 4850
 	1    0    0    -1  
@@ -1071,12 +1071,8 @@ Text Label 1500 4500 0    50   ~ 0
 QWIIC2-SDA
 Text Label 1500 4850 0    50   ~ 0
 QWIIC2-SCL
-Wire Notes Line
-	500  4100 2300 4100
 Text Notes 1600 4200 2    50   ~ 0
 QWIIC Daisy Chain Jumpers
-Wire Notes Line
-	3900 3850 2300 3850
 Text Label 1200 2950 2    50   ~ 0
 QWIIC1-SDA
 Text Label 1200 3100 2    50   ~ 0
@@ -1098,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3100 1500 3100
 Wire Notes Line
-	2300 2650 2300 7750
+	2350 2650 2350 7750
 Text Notes 1750 2750 2    50   ~ 0
 Unnecessary Labels for Clarity
 $Comp
@@ -1207,8 +1203,6 @@ Wire Wire Line
 Text Notes 2800 2750 2    50   ~ 0
 Brick Mount
 Wire Notes Line
-	3900 2650 3900 5000
-Wire Notes Line
 	500  2650 3900 2650
 Text Notes 2500 2550 2    100  ~ 0
 Connectors
@@ -1229,4 +1223,23 @@ Wire Wire Line
 	1500 3250 1200 3250
 Wire Wire Line
 	1500 3400 1200 3400
+Wire Notes Line
+	3900 2650 3900 3850
+Wire Notes Line
+	500  4100 2350 4100
+Wire Notes Line
+	3900 3850 2350 3850
+$Comp
+L Connector:TestPoint TP1
+U 1 1 6047197A
+P 3300 4250
+F 0 "TP1" V 3254 4438 50  0000 L CNN
+F 1 "TestPoint" V 3345 4438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3500 4250 50  0001 C CNN
+F 3 "~" H 3500 4250 50  0001 C CNN
+	1    3300 4250
+	0    1    1    0   
+$EndComp
+Text Label 3300 4250 2    50   ~ 0
+SMARTLED-OUT
 $EndSCHEMATC
