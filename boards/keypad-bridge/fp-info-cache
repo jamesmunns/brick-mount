@@ -1,4 +1,4 @@
-19134693552895903
+19128263616713951
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50722,13 +50722,6 @@ K2-1808SN-A4SW-01
 4
 2
 Everything
-RJ45_Amphenol_54602-x08_Horizontal-less
-8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
-RJ45
-0
-8
-8
-Everything
 SOP-8
 
 
@@ -83173,24 +83166,3 @@ minew-MS88SF21
 0
 28
 28
-usb-c-pill
-weact-blackpill
-
-
-0
-44
-44
-usb-c-pill
-weact-blackpill-nodebug
-
-
-0
-40
-40
-usb-c-pill
-weact-blackpill-swdonly
-
-
-0
-42
-42

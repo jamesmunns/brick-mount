@@ -1198,7 +1198,7 @@ Wire Wire Line
 	2800 3750 2900 3750
 Wire Wire Line
 	2900 3750 2900 3650
-Text Notes 2800 2750 2    50   ~ 0
+Text Notes 2850 2750 2    50   ~ 0
 Brick Mount
 Wire Notes Line
 	500  2650 3900 2650
@@ -1222,22 +1222,24 @@ Wire Wire Line
 Wire Wire Line
 	1500 3400 1200 3400
 Wire Notes Line
-	3900 2650 3900 3850
-Wire Notes Line
 	500  4100 2350 4100
 Wire Notes Line
 	3900 3850 2350 3850
 $Comp
 L Connector:TestPoint TP1
 U 1 1 6047197A
-P 3300 4250
-F 0 "TP1" V 3254 4438 50  0000 L CNN
-F 1 "TestPoint" V 3345 4438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3500 4250 50  0001 C CNN
-F 3 "~" H 3500 4250 50  0001 C CNN
-	1    3300 4250
+P 3200 4450
+F 0 "TP1" V 3154 4638 50  0000 L CNN
+F 1 "TestPoint" V 3245 4638 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3400 4450 50  0001 C CNN
+F 3 "~" H 3400 4450 50  0001 C CNN
+	1    3200 4450
 	0    1    1    0   
 $EndComp
-Text Label 3300 4250 2    50   ~ 0
+Text Label 3200 4450 2    50   ~ 0
 SMARTLED-OUT
+Wire Notes Line
+	3900 2650 3900 5000
+Text Notes 2400 3950 0    50   ~ 0
+Smartled Test Point
 $EndSCHEMATC

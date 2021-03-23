@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name usb-c-pill)(type Legacy)(uri /home/james/hardware/brick-mount/parts/kicad_libs/usb-c-pill/usb-c-pill.lib)(options "")(descr ""))
+  (lib (name Everything)(type Legacy)(uri /home/james/hardware/brick-mount/parts/kicad_libs/Everything.lib)(options "")(descr ""))
+)

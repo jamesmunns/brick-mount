@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Everything)(type Legacy)(uri /home/james/hardware/brick-mount/parts/kicad_libs/Everything.lib)(options "")(descr ""))
+)

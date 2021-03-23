@@ -1,0 +1,177 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3250 3400 0    50   Input ~ 0
+pwm-in
+$Comp
+L Device:R R9
+U 1 1 6048483F
+P 3600 3400
+AR Path="/60484630/6048483F" Ref="R9"  Part="1" 
+AR Path="/6048A9A2/6048483F" Ref="R12"  Part="1" 
+AR Path="/6048AA5C/6048483F" Ref="R15"  Part="1" 
+AR Path="/6048AC2A/6048483F" Ref="R18"  Part="1" 
+AR Path="/6048AD98/6048483F" Ref="R21"  Part="1" 
+AR Path="/6048AFE5/6048483F" Ref="R24"  Part="1" 
+AR Path="/6048B108/6048483F" Ref="R27"  Part="1" 
+AR Path="/6048B359/6048483F" Ref="R30"  Part="1" 
+F 0 "R12" V 3500 3400 50  0000 C CNN
+F 1 "220" V 3600 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3530 3400 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3400 3450 3400
+$Comp
+L Device:C C4
+U 1 1 60485081
+P 4000 3550
+AR Path="/60484630/60485081" Ref="C4"  Part="1" 
+AR Path="/6048A9A2/60485081" Ref="C6"  Part="1" 
+AR Path="/6048AA5C/60485081" Ref="C8"  Part="1" 
+AR Path="/6048AC2A/60485081" Ref="C10"  Part="1" 
+AR Path="/6048AD98/60485081" Ref="C12"  Part="1" 
+AR Path="/6048AFE5/60485081" Ref="C14"  Part="1" 
+AR Path="/6048B108/60485081" Ref="C16"  Part="1" 
+AR Path="/6048B359/60485081" Ref="C18"  Part="1" 
+F 0 "C6" H 4115 3596 50  0000 L CNN
+F 1 "100nF" H 4115 3505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4038 3400 50  0001 C CNN
+F 3 "~" H 4000 3550 50  0001 C CNN
+	1    4000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 60485C9C
+P 4450 3550
+AR Path="/60484630/60485C9C" Ref="R10"  Part="1" 
+AR Path="/6048A9A2/60485C9C" Ref="R13"  Part="1" 
+AR Path="/6048AA5C/60485C9C" Ref="R16"  Part="1" 
+AR Path="/6048AC2A/60485C9C" Ref="R19"  Part="1" 
+AR Path="/6048AD98/60485C9C" Ref="R22"  Part="1" 
+AR Path="/6048AFE5/60485C9C" Ref="R25"  Part="1" 
+AR Path="/6048B108/60485C9C" Ref="R28"  Part="1" 
+AR Path="/6048B359/60485C9C" Ref="R31"  Part="1" 
+F 0 "R13" V 4350 3550 50  0000 C CNN
+F 1 "100" V 4450 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 3550 50  0001 C CNN
+F 3 "~" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 3400 4000 3400
+Connection ~ 4000 3400
+Wire Wire Line
+	4000 3400 4450 3400
+Wire Wire Line
+	4000 3700 4000 3800
+Wire Wire Line
+	4000 3800 4250 3800
+Wire Wire Line
+	4450 3800 4450 3700
+$Comp
+L power:GND #PWR0115
+U 1 1 6048618F
+P 4250 3800
+AR Path="/60484630/6048618F" Ref="#PWR0115"  Part="1" 
+AR Path="/6048A9A2/6048618F" Ref="#PWR0117"  Part="1" 
+AR Path="/6048AA5C/6048618F" Ref="#PWR0119"  Part="1" 
+AR Path="/6048AC2A/6048618F" Ref="#PWR0121"  Part="1" 
+AR Path="/6048AD98/6048618F" Ref="#PWR0123"  Part="1" 
+AR Path="/6048AFE5/6048618F" Ref="#PWR0125"  Part="1" 
+AR Path="/6048B108/6048618F" Ref="#PWR0127"  Part="1" 
+AR Path="/6048B359/6048618F" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0117" H 4250 3550 50  0001 C CNN
+F 1 "GND" H 4255 3627 50  0000 C CNN
+F 2 "" H 4250 3800 50  0001 C CNN
+F 3 "" H 4250 3800 50  0001 C CNN
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 3800
+Wire Wire Line
+	4250 3800 4450 3800
+$Comp
+L Device:C C5
+U 1 1 604864B7
+P 4850 3400
+AR Path="/60484630/604864B7" Ref="C5"  Part="1" 
+AR Path="/6048A9A2/604864B7" Ref="C7"  Part="1" 
+AR Path="/6048AA5C/604864B7" Ref="C9"  Part="1" 
+AR Path="/6048AC2A/604864B7" Ref="C11"  Part="1" 
+AR Path="/6048AD98/604864B7" Ref="C13"  Part="1" 
+AR Path="/6048AFE5/604864B7" Ref="C15"  Part="1" 
+AR Path="/6048B108/604864B7" Ref="C17"  Part="1" 
+AR Path="/6048B359/604864B7" Ref="C19"  Part="1" 
+F 0 "C7" V 4598 3400 50  0000 C CNN
+F 1 "47uF" V 4689 3400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4888 3250 50  0001 C CNN
+F 3 "~" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3400 4700 3400
+Connection ~ 4450 3400
+$Comp
+L Device:R R11
+U 1 1 60486B32
+P 5250 3550
+AR Path="/60484630/60486B32" Ref="R11"  Part="1" 
+AR Path="/6048A9A2/60486B32" Ref="R14"  Part="1" 
+AR Path="/6048AA5C/60486B32" Ref="R17"  Part="1" 
+AR Path="/6048AC2A/60486B32" Ref="R20"  Part="1" 
+AR Path="/6048AD98/60486B32" Ref="R23"  Part="1" 
+AR Path="/6048AFE5/60486B32" Ref="R26"  Part="1" 
+AR Path="/6048B108/60486B32" Ref="R29"  Part="1" 
+AR Path="/6048B359/60486B32" Ref="R32"  Part="1" 
+F 0 "R14" H 5320 3596 50  0000 L CNN
+F 1 "1K8" V 5250 3450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5180 3550 50  0001 C CNN
+F 3 "~" H 5250 3550 50  0001 C CNN
+	1    5250 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 5550 3400 2    50   Output ~ 0
+audio-out
+Wire Wire Line
+	5000 3400 5250 3400
+Connection ~ 5250 3400
+Wire Wire Line
+	5250 3400 5550 3400
+$Comp
+L power:GND #PWR0116
+U 1 1 604876AC
+P 5250 3700
+AR Path="/60484630/604876AC" Ref="#PWR0116"  Part="1" 
+AR Path="/6048A9A2/604876AC" Ref="#PWR0118"  Part="1" 
+AR Path="/6048AA5C/604876AC" Ref="#PWR0120"  Part="1" 
+AR Path="/6048AC2A/604876AC" Ref="#PWR0122"  Part="1" 
+AR Path="/6048AD98/604876AC" Ref="#PWR0124"  Part="1" 
+AR Path="/6048AFE5/604876AC" Ref="#PWR0126"  Part="1" 
+AR Path="/6048B108/604876AC" Ref="#PWR0128"  Part="1" 
+AR Path="/6048B359/604876AC" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0118" H 5250 3450 50  0001 C CNN
+F 1 "GND" H 5255 3527 50  0000 C CNN
+F 2 "" H 5250 3700 50  0001 C CNN
+F 3 "" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
