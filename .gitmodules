@@ -7,3 +7,6 @@
 [submodule "parts/kicad_libs"]
 	path = parts/kicad_libs
 	url = https://github.com/jamesmunns/kicad_libs/
+[submodule "parts/kicad-banana"]
+	path = parts/kicad-banana
+	url = https://github.com/arturo182/kicad-banana.git
