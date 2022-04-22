@@ -10,3 +10,6 @@
 [submodule "parts/kicad-banana"]
 	path = parts/kicad-banana
 	url = https://github.com/arturo182/kicad-banana.git
+[submodule "parts/rp2040_stamp_footprints"]
+	path = parts/rp2040_stamp_footprints
+	url = https://github.com/solderparty/rp2040_stamp_footprints
